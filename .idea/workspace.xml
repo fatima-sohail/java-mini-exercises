@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/java-mini-exercises/GameLauncher.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2lhwFQnegSSLYgXLjOTHS85VVMq" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
