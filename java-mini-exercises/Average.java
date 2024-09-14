@@ -14,6 +14,7 @@ public class Average {
          int count = 0;
          int sum = 0;
          while(count < n){
+             System.out.println("Enter number " + (count + 1) + ": ");
              int inputInt = Integer.valueOf(scanner.nextLine());
             sum = sum + inputInt;
             count++;
