@@ -15,7 +15,7 @@
 
 import java.util.Scanner;
 
-public class readingBoolean {
+public class ReadingAllPrimitiveTypes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a string");
