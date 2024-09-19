@@ -22,7 +22,7 @@ public class LeapYear {
         //        System.out.println(isLeapYear);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a Year");
-//
+
         int inputInInt = Integer.valueOf(scanner.nextLine());
         if((inputInInt % 4 == 0 && inputInInt % 100 != 0) || inputInInt % 400 == 0){
             System.out.println("it is a leap year.");

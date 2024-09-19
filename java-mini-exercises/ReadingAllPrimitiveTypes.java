@@ -25,7 +25,6 @@ public class ReadingAllPrimitiveTypes {
         boolean inputInBoolean = Boolean.valueOf(scanner.nextLine());
 
         System.out.println("Give an Integer");
-//        System.out.println(booleanAnswer);
         int inputInInt = Integer.valueOf(scanner.nextLine());
 
         System.out.println("Give a double");
