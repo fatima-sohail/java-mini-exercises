@@ -20,7 +20,7 @@ public class AverageOfNumbers {
                 count = count + 1;
                 average = 1.0 * sum/count;
             }
-            
+
             //if you want to calculate average of only positive numbers:
 //            if(inputInInt > 0){
 //                sum = sum + inputInInt;
