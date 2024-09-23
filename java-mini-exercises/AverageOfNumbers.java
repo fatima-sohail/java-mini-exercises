@@ -1,4 +1,9 @@
 import java.util.Scanner;
+//Write a program that asks the user for input until the user inputs 0.
+// After this, the program prints the average of the numbers. The number zero
+// does not need to be counted to the average. You may assume that the user
+// inputs at least one number.
+
 //user can input as many numbers as they want, hit 0 to exit the program
 //calculate the average of all the inputs and print it
 public class AverageOfNumbers {
