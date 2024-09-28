@@ -9,7 +9,7 @@ public class Greatest {
     }
 
     public static int greatest(int number1, int number2, int number3) {
-        // write some code here
+        // create a variable to store the value of maximum
         int max = number1;
         if(number2>max){
             return max = number2;
