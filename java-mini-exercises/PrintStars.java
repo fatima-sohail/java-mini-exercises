@@ -18,13 +18,13 @@
 
 public class PrintStars {
     public static void main(String[] args) {
-//        printStars(5);
+          printStars(5);
 //        printStars(3);
 //        printStars(9);
 
 //        printSquare(4);
 //        printRectangle(17, 3);
-        printTriangle(4);
+//         printTriangle(4);
     }
 
     public static void printStars(int number) {
@@ -40,23 +40,30 @@ public class PrintStars {
         System.out.println("");
     }
 
+    //printStars() prints the number of i or * in a single line
+    //printSquare() prints the rows of the square, i represents each row
     public static void printSquare(int size) {
 
             for(int iInRow = 0; iInRow < size; iInRow++){
 
                     printStars(size);
-                }
-
             }
 
+    }
+
+    //printStars() prints the number of i or * in a single line
+    //printRectangle() prints the rows of the rectangle, i represents each row
     public static void printRectangle(int width, int height) {
         for(int i=0; i<height; i++){
             printStars(width);
         }
     }
 
+    //printStars() prints the number of i or * in a single line
+    //printTriangle() prints the rows of the triangle, i represents each row
     public static void printTriangle(int size) {
-        for(int i = 0; i<size; i++){
+        for(int i = 0; i<=size; i++){
+                printStars(i);
 
         }
     }
