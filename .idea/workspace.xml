@@ -45,6 +45,8 @@
     "Application.AdvancedAstrology.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.FindingErrorInTheCode.executor": "Run",
+    "Application.ListSecondPlusThird.executor": "Run",
+    "Application.ListThirdElement.executor": "Run",
     "Application.PrintStars.executor": "Run",
     "Application.PrintTreeAndTriangle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
