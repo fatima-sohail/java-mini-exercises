@@ -46,6 +46,7 @@
     "Application.Calculator.executor": "Run",
     "Application.FindingErrorInTheCode.executor": "Run",
     "Application.ListSecondPlusThird.executor": "Run",
+    "Application.ListSize.executor": "Run",
     "Application.ListThirdElement.executor": "Run",
     "Application.PrintStars.executor": "Run",
     "Application.PrintTreeAndTriangle.executor": "Run",
