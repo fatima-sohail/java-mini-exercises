@@ -45,6 +45,8 @@
     "Application.AdvancedAstrology.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.FindingErrorInTheCode.executor": "Run",
+    "Application.ListFirstAndLast.executor": "Run",
+    "Application.ListLastInList.executor": "Run",
     "Application.ListSecondPlusThird.executor": "Run",
     "Application.ListSize.executor": "Run",
     "Application.ListThirdElement.executor": "Run",
