@@ -48,6 +48,7 @@
     "Application.ListFirstAndLast.executor": "Run",
     "Application.ListGreatestInList.executor": "Run",
     "Application.ListIndexOf.executor": "Run",
+    "Application.ListIndexOfSmallest.executor": "Run",
     "Application.ListLastInList.executor": "Run",
     "Application.ListOnlyTheseNumbers.executor": "Run",
     "Application.ListRememberTheseNumbers.executor": "Run",

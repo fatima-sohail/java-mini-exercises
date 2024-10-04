@@ -42,11 +42,12 @@ public class ListGreatestInList {
             int max = listOfIntegers.get(0);
             //loop through the list to find the greatest number
             for(int i = 0; i<listOfIntegers.size(); i++){
-                int number = listOfIntegers.get(i);
-                if(number > max){
-                    max = number;
+                int currentNumber = listOfIntegers.get(i);
+                if(currentNumber > max){
+                    max = currentNumber;
                 }
-            }
+            } //outside for loop
+
             System.out.println("The greatest number is: " + max);
         }else{
             System.out.println("No numbers are entered");
