@@ -34,10 +34,27 @@ public class ArrayIndex {
 
         //ask for userInput
         System.out.println("search for?");
-        int searchFor = Integer.valueOf(scanner.nextLine());
+        int searchForANumber = Integer.valueOf(scanner.nextLine());
 
         //implement search functionality here
-        
+        //go through each index to find the number
+        //if the number is found
+        //print the number with the index
+        //if the number is not found, tell the user that it is not in there
+
+        boolean found = false;
+        int i = 0;
+        while(i< numbers.length){
+            if(searchForANumber == numbers[i]){
+                System.out.println(searchForANumber + " is at index " + i);
+                found = true;
+                break;
+            }
+            i++;
+        }
+        if(found == false) {
+            System.out.println("The number is not found");
+        }
 
     }
 }
