@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/ArrayPrintNeatly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/ArrayPrintStars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/ArrayIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/ArrayIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,8 @@
   "keyToString": {
     "Application.AdvancedAstrology.executor": "Run",
     "Application.ArrayIndex.executor": "Run",
+    "Application.ArrayPrintNeatly.executor": "Run",
+    "Application.ArrayPrintStars.executor": "Run",
     "Application.ArrayStoreNumbers.executor": "Run",
     "Application.ArraySum.executor": "Run",
     "Application.ArraySwap.executor": "Run",
