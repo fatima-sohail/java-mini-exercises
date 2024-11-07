@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/ArrayPrintNeatly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/ArrayPrintStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +75,7 @@
     "Application.ListStringOnTheList.executor": "Run",
     "Application.ListSum.executor": "Run",
     "Application.ListThirdElement.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.PrintStars.executor": "Run",
     "Application.PrintTreeAndTriangle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
