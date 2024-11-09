@@ -1,5 +1,5 @@
-package pokemonWithConstructor;
-
+package oopPokemonWithConstructor;
+//create objects
 public class Main {
     public static void main(String[] args) {
         Pokemon object1 = new Pokemon();

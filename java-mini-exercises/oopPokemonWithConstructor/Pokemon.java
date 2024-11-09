@@ -1,4 +1,13 @@
-package pokemonWithConstructor;
+//create a class called Pokemon, instantiate variables: name and level, create first constructor
+//and give it level = 2, create second constructor and pass arguments: name and level and create
+//variables, create a method attack()that prints "attack!" when called
+//create objects in another folder and use this class!
+
+
+package oopPokemonWithConstructor;
+//https://www.youtube.com/watch?v=IUqKuGNasdM inspo
+//to create this folder, right click java-mini-exercises and click new, then directory.
+
 //blueprint for the pokemon objects
 public class Pokemon {
     //blueprint class contains variables and methods
@@ -15,12 +24,15 @@ public class Pokemon {
     }
 
     //if you want user to give name and level, how do you do that?
+    //create a constructor, its named after its class, so variable naming convention is gonna be
+    //the same as its class variables
     Pokemon (String pName, int pLevel){
         //variable names are same as class variables
         name = pName;
         level = pLevel;
     }
 
+    //create a method that prints "attack" when called.
     public void attack() {
         System.out.println(name + " attack!");
     }

@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgeGrowOlder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgeGrowOlder/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopDoor/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopDoor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopProduct/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopProduct/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopWhistle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopWhistle/Whistle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/pokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithoutConstructor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/pokemonWithoutConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithoutConstructor/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/pokemonWithConstructor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/pokemonWithConstructor/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/pokemonWithoutConstructor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/pokemonWithoutConstructor/Pokemon.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2lhwFQnegSSLYgXLjOTHS85VVMq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />

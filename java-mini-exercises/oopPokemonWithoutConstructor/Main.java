@@ -1,4 +1,4 @@
-package pokemonWithoutConstructor;
+package oopPokemonWithoutConstructor;
 //here you create objects of pokemon class
 public class Main {
     public static void main(String[] args) {
