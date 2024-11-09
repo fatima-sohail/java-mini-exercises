@@ -1,3 +1,8 @@
+//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//create xyz folder that contains multiple files:
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
 //Create a class named Whistle. Add the variable private String sound to the class.
 //After that, create the constructor public Whistle(String whistleSound), which
 //is used to create a new whistle that's given a sound.

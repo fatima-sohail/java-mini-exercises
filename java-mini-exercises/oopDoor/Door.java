@@ -1,3 +1,8 @@
+////for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//create xyz folder that contains multiple files:
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
 //Create a class named Door. The door does not have any variables. Create for it a
 // constructor with no parameters (or use the default constructor). After that,
 // create a public void knock() method for the door that prints the message "Who's there?"

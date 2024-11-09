@@ -1,3 +1,16 @@
+//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//create a person folder that contains multiple files
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
+//create a person class, create variables name and age
+//create constructor, the string variable called initialName is passed to it as a parameter
+//create a method that prints the person's name and age, that will be used by objects
+//create growOlder() method that when called, increases the age of the objects by 1
+
+//create Main file
+//create two objects Ada and Antii in this file and call the above methods on them
+
 package oopAgeGrowOlder;
 
 public class Person {

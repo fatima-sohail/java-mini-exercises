@@ -1,3 +1,8 @@
+//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//to create xyz folder that contains multiple files:
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
 //create a class called Pokemon, instantiate variables: name and level, create first constructor
 //and give it level = 2, create second constructor and pass arguments: name and level and create
 //variables, create a method attack()that prints "attack!" when called
@@ -5,9 +10,6 @@
 
 
 package oopPokemonWithConstructor;
-//https://www.youtube.com/watch?v=IUqKuGNasdM inspo
-//to create this folder, right click java-mini-exercises and click new, then directory.
-
 //blueprint for the pokemon objects
 public class Pokemon {
     //blueprint class contains variables and methods

@@ -1,3 +1,8 @@
+//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//create xyz folder that contains multiple files:
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
 //create a class called Pokemon, instantiate variables: name and level,
 //create a method attack()that prints ?attack!" when called
 //create objects in another folder and use this class!

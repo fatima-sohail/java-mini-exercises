@@ -1,3 +1,8 @@
+//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+
+//create xyz folder that contains multiple files:
+//java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
+
 //Create a class Product that represents a store product. The product should have a
 // price (double), a quantity (int) and a name (String).
 //
