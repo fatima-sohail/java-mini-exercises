@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgentBond/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgentBond/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopGauge/Gauge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopGauge/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopDoor/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopDoor/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopAgeGrowOlder/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopAgeGrowOlder/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDebt/Debt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDebt/Debt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDecreasingCounter/DecreasingCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDecreasingCounter/DecreasingCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDoor/Door.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopDoor/Door.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithConstructor/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithConstructor/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithoutConstructor/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithoutConstructor/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopProduct/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopProduct/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopSong/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopSong/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopWhistle/Whistle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopWhistle/Whistle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,42 +45,42 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdvancedAstrology.executor": "Run",
-    "Application.ArrayIndex.executor": "Run",
-    "Application.ArrayPrintNeatly.executor": "Run",
-    "Application.ArrayPrintStars.executor": "Run",
-    "Application.ArrayStoreNumbers.executor": "Run",
-    "Application.ArraySum.executor": "Run",
-    "Application.ArraySwap.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.FindingErrorInTheCode.executor": "Run",
-    "Application.ListArraySum.executor": "Run",
-    "Application.ListAverage.executor": "Run",
-    "Application.ListFirstAndLast.executor": "Run",
-    "Application.ListGreatestInList.executor": "Run",
-    "Application.ListIndexOf.executor": "Run",
-    "Application.ListIndexOfSmallest.executor": "Run",
-    "Application.ListLastInList.executor": "Run",
-    "Application.ListOnlyTheseNumbers.executor": "Run",
-    "Application.ListPrintInRange.executor": "Run",
-    "Application.ListRememberTheseNumbers.executor": "Run",
-    "Application.ListRemoveLast.executor": "Run",
-    "Application.ListSecondPlusThird.executor": "Run",
-    "Application.ListSize.executor": "Run",
-    "Application.ListStringOnTheList.executor": "Run",
-    "Application.ListSum.executor": "Run",
-    "Application.ListThirdElement.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PrintStars.executor": "Run",
-    "Application.PrintTreeAndTriangle.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fatima/Documents/GitHub/java-mini-exercises"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdvancedAstrology.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPrintNeatly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPrintStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayStoreNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySwap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindingErrorInTheCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListFirstAndLast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListGreatestInList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIndexOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIndexOfSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListLastInList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListOnlyTheseNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListPrintInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListRememberTheseNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListRemoveLast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSecondPlusThird.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListStringOnTheList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListThirdElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintTreeAndTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fatima/Documents/GitHub/java-mini-exercises&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
