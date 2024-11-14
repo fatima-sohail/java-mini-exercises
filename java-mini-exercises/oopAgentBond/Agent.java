@@ -12,10 +12,12 @@ public class Agent {
 
     //create methods
     public void print(){
+
         System.out.println("My name is " + lastName + ", " + firstName + " " + lastName);
     }
 
     public String toString(){
+
         return "My name is " + lastName + ", " + firstName + " " + lastName;
     }
 }

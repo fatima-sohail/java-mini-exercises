@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonInputFromUser/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonInputFromUser/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersons/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersons/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/PaymentCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/instructions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopPersonGet_Set_toString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopPersonGet_Set_toString/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/OOPYourFirstBankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopAgentBond/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgentBond/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopMultiplier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopMultiplier/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopMultiplier/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopMultiplier/Multiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopAgentBond/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopAgentBond/Agent.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

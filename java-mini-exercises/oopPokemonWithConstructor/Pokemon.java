@@ -1,4 +1,4 @@
-//for basic concept about class and object, watch: https://www.youtube.com/watch?v=IUqKuGNasdM
+//for basic concept about class, object, constructor watch: https://www.youtube.com/watch?v=IUqKuGNasdM
 
 //to create xyz folder that contains multiple files:
 //java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
