@@ -17,7 +17,7 @@ public class Main {
             if(nameInput.isEmpty()){
                 break;
             }
-            //add new person to the list
+            //add this person to the list
             persons.add(new Person(nameInput));
         }
 
