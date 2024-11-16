@@ -6,7 +6,7 @@
 //Create a film class with the instance variables name (String) and ageRating (int). Write
 //the constructor public Film(String filmName, int filmAgeRating) for the class, and also
 //the methods public String name() and public int ageRating(). The first of these returns
-//the film title and the second returns its rating.
+//the film title and the second returns its ageRating.
 //
 //Below is an example use case of the class.
 //
@@ -37,7 +37,7 @@ public class Film {
     int ageRating;
 
     //constructor
-    //Why constructor is created? constructor's paramenters are passed in to the object
+    //Why constructor is created? constructor's parameters are passed in to the object
     //as arguments, since object can't directly use blueprint class's variables as arguments.
     public Film(String filmName, int filmAgeRating){
         name = filmName;

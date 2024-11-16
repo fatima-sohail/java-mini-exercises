@@ -1,10 +1,17 @@
+//create a program that prints the object's/person's current balance,
+//reduces his current balance if he eats affordably,
+//reduces further his current balance if he eats heartily
+//does not reduce balance to negative if its already 0
+//increases the current balance if added extra money, not exceeding 150 euros
+// if the amount to be topped up exceeds this limit, the balance should, in any case,
+//become exactly 150 euros
+
 //for basic concept about class, object, constructor watch: https://www.youtube.com/watch?v=IUqKuGNasdM
 
 //to create xyz folder that contains multiple files:
 //java-mini-exercises->java-mini-exercises->new->package & inside package create multiple files
 
 //Payment Card (6 parts)
-
 //At the University of Helsinki student canteen, i.e. Unicafe, students pay for their
 // lunch using a payment card. The final PaymentCard will look like the following as a
 // class diagram:

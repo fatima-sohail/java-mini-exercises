@@ -30,7 +30,7 @@ public class Person {
         this.name = initialName;
     }
 
-    //get the instance name, or retreive any single variable from an object
+    //get the instance name if its private, or retreive any single variable from an object
     //singular version of printPerson()method or toString()
     //get() always returns a value
     public String getName(){
