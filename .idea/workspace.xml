@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputAgeLimit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputAgeLimit/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputSplitString/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputSplitString/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonalInfoDoubleUserInput/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonalInfoDoubleUserInput/PersonalInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListTVprogramMaxDuration/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListTVprogramMaxDuration/TvProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListBookSelectiveOutput/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oopListBookSelectiveOutput/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopFilm/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/instructions.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/instructions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPersonGet_Set_toString/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPersonGet_Set_toString/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListPersonDoubleUserInput/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListPersonDoubleUserInput/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +77,10 @@
     "Application.Main.executor": "Run",
     "Application.PrintStars.executor": "Run",
     "Application.PrintTreeAndTriangle.executor": "Run",
+    "Application.oopListBookSelectiveOutput.Main.executor": "Run",
     "Application.oopListPersonUserInputAgeLimit.Main.executor": "Run",
     "Application.oopListPersonUserInputSplitString.Main.executor": "Run",
+    "Application.oopListTVprogramMaxDuration.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
