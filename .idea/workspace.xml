@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_PrintingASpecificFile/PrintFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_PrintingASpecificFile/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_ReadAndPrintAFile/PrintAndRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_ReadAndPrintAFile/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_IsItInTheFile/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListTVprogramMaxDuration/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListTVprogramMaxDuration/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListTVprogramMaxDuration/TvProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopListTVprogramMaxDuration/TvProgram.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
