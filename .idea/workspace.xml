@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSV-format.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_IsItInTheFile/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_NumbersFromAFile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_NumbersFromAFile/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numbers-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numbers-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.csv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_SportStatistics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_IsItInTheFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_IsItInTheFile/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_PrintingASpecificFile/PrintFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_PrintingASpecificFile/PrintFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV-format.text" beforeDir="false" afterPath="$PROJECT_DIR$/CSV-format.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +89,8 @@
     "Application.PrintingAFile.executor": "Run",
     "Application.file_IsItInTheFile.Main.executor": "Run",
     "Application.file_NumbersFromAFile.Main.executor": "Run",
+    "Application.file_RecordsFromAFile.Main.executor": "Run",
+    "Application.file_StoringRecords.Main.executor": "Run",
     "Application.oopListBookSelectiveOutput.Main.executor": "Run",
     "Application.oopListPersonUserInputAgeLimit.Main.executor": "Run",
     "Application.oopListPersonUserInputSplitString.Main.executor": "Run",
