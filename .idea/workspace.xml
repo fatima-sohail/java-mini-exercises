@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data.csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_SportStatistics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/file_SportStatistics/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV-format.text" beforeDir="false" afterPath="$PROJECT_DIR$/CSV-format.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_RecordsFromAFile/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_StoringRecords/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/file_SportStatistics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/file_SportStatistics/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +83,7 @@
     "Application.file_IsItInTheFile.Main.executor": "Run",
     "Application.file_NumbersFromAFile.Main.executor": "Run",
     "Application.file_RecordsFromAFile.Main.executor": "Run",
+    "Application.file_SportStatistics.Main.executor": "Run",
     "Application.file_StoringRecords.Main.executor": "Run",
     "Application.oopListBookSelectiveOutput.Main.executor": "Run",
     "Application.oopListPersonUserInputAgeLimit.Main.executor": "Run",
