@@ -60,6 +60,15 @@ public class PaymentTerminal {
         return false;
     }
 
+    public void addMoneyToCard(PaymentCard card, double sum) {
+        // add money to the payment card
+        if(sum>0){
+            card.addMoney(sum);
+            this.money = this.money + sum;
+        }
+        //else the method does nothing
+    }
+
     public String toString() {
         return "money: " + money + ", number of sold afforable meals: " + affordableMeals + ", number of sold hearty meals: " + heartyMeals;
     }
