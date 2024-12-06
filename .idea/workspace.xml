@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_BiggestPetShop/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_BiggestPetShop/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsObjectVariable_Birthday/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsObjectVariable_Birthday/SimpleDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_cardPayments/PaymentTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_cardPayments/PaymentTerminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,70 +49,70 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdvancedAstrology.executor": "Run",
-    "Application.ArrayIndex.executor": "Run",
-    "Application.ArrayPrintNeatly.executor": "Run",
-    "Application.ArrayPrintStars.executor": "Run",
-    "Application.ArrayStoreNumbers.executor": "Run",
-    "Application.ArraySum.executor": "Run",
-    "Application.ArraySwap.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.FindingErrorInTheCode.executor": "Run",
-    "Application.ListArraySum.executor": "Run",
-    "Application.ListAverage.executor": "Run",
-    "Application.ListFirstAndLast.executor": "Run",
-    "Application.ListGreatestInList.executor": "Run",
-    "Application.ListIndexOf.executor": "Run",
-    "Application.ListIndexOfSmallest.executor": "Run",
-    "Application.ListLastInList.executor": "Run",
-    "Application.ListOnlyTheseNumbers.executor": "Run",
-    "Application.ListPrintInRange.executor": "Run",
-    "Application.ListRememberTheseNumbers.executor": "Run",
-    "Application.ListRemoveLast.executor": "Run",
-    "Application.ListSecondPlusThird.executor": "Run",
-    "Application.ListSize.executor": "Run",
-    "Application.ListStringOnTheList.executor": "Run",
-    "Application.ListSum.executor": "Run",
-    "Application.ListThirdElement.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PrintAndRead.executor": "Run",
-    "Application.PrintFile.executor": "Run",
-    "Application.PrintStars.executor": "Run",
-    "Application.PrintTreeAndTriangle.executor": "Run",
-    "Application.PrintingAFile.executor": "Run",
-    "Application.ReferenceVar.executor": "Run",
-    "Application.file_IsItInTheFile.Main.executor": "Run",
-    "Application.file_NumbersFromAFile.Main.executor": "Run",
-    "Application.file_RecordsFromAFile.Main.executor": "Run",
-    "Application.file_SportStatistics.Main.executor": "Run",
-    "Application.file_StoringRecords.Main.executor": "Run",
-    "Application.oop2_ConstructorOverload.Main.executor": "Run",
-    "Application.oop2_Fitbyte.Main.executor": "Run",
-    "Application.oop2_OverloadedCounter.Main.executor": "Run",
-    "Application.oopListBookSelectiveOutput.Main.executor": "Run",
-    "Application.oopListPersonUserInputAgeLimit.Main.executor": "Run",
-    "Application.oopListPersonUserInputSplitString.Main.executor": "Run",
-    "Application.oopListTVprogramMaxDuration.Main.executor": "Run",
-    "Application.oop_Encapsulation_HealthStation.Main.executor": "Run",
-    "Application.oop_Encapsulation_ObjectInAnObject.Main.executor": "Run",
-    "Application.oop_Encapsulation_Object_as_a_method_parameter.Main.executor": "Run",
-    "Application.oop_Encapsulation_cardPayments.Main.executor": "Run",
-    "Application.oop_NullValue_of_a_ReferenceVariable.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fatima/Documents/GitHub/java-mini-exercises"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdvancedAstrology.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPrintNeatly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPrintStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayStoreNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySwap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindingErrorInTheCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListFirstAndLast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListGreatestInList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIndexOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIndexOfSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListLastInList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListOnlyTheseNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListPrintInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListRememberTheseNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListRemoveLast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSecondPlusThird.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListStringOnTheList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListThirdElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintAndRead.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintTreeAndTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintingAFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReferenceVar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.file_IsItInTheFile.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.file_NumbersFromAFile.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.file_RecordsFromAFile.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.file_SportStatistics.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.file_StoringRecords.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop2_ConstructorOverload.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop2_Fitbyte.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop2_OverloadedCounter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oopListBookSelectiveOutput.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oopListPersonUserInputAgeLimit.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oopListPersonUserInputSplitString.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oopListTVprogramMaxDuration.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop_Encapsulation_HealthStation.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop_Encapsulation_ObjectInAnObject.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop_Encapsulation_Object_as_a_method_parameter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop_Encapsulation_cardPayments.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oop_NullValue_of_a_ReferenceVariable.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fatima/Documents/GitHub/java-mini-exercises&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fatima\Documents\GitHub\java-mini-exercises" />
       <recent name="C:\Users\Fatima\Documents\GitHub\java-mini-exercises\java-mini-exercises" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oopListPersonalInfoDoubleUserInput.Main" />
       <module name="java-mini-exercises" />
