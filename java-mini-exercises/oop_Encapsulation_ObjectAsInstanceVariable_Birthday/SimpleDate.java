@@ -1,5 +1,7 @@
-package oop_Encapsulation_ObjectAsObjectVariable_Birthday;
-
+package oop_Encapsulation_ObjectAsInstanceVariable_Birthday;
+//create a SimpleDate class with instance variables day, month and year
+//contructor initializes the fields with given values
+//The `toString()` method formats the output as 'dd. mm. year'
 public class SimpleDate {
     int day;
     int month;
