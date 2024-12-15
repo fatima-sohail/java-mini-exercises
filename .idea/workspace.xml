@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingObj1ToObj2/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects_SONGS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects_SONGS/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingObj1ToObj2/Instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingObj1ToObj2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/SimpleDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/SimpleDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingObj1ToObj2/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingObj1ToObj2/Apartment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_BiggestPetShop/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_BiggestPetShop/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_BiggestPetShop/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_BiggestPetShop/Pet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/SimpleDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_ObjectAsInstanceVariable_Birthday/SimpleDate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +103,7 @@
     "Application.oopListPersonUserInputSplitString.Main.executor": "Run",
     "Application.oopListTVprogramMaxDuration.Main.executor": "Run",
     "Application.oop_Encapsulation_BiggestPetShop.Main.executor": "Run",
+    "Application.oop_Encapsulation_Comparing_the_equality_of_objects.Main.executor": "Run",
     "Application.oop_Encapsulation_HealthStation.Main.executor": "Run",
     "Application.oop_Encapsulation_ObjectAsInstanceVariable_BiggestPetShop.Main.executor": "Run",
     "Application.oop_Encapsulation_ObjectAsInstanceVariable_Birthday.Main.executor": "Run",
@@ -107,6 +111,7 @@
     "Application.oop_Encapsulation_ObjectInAnObject.Main.executor": "Run",
     "Application.oop_Encapsulation_Object_as_a_method_parameter.Main.executor": "Run",
     "Application.oop_Encapsulation_cardPayments.Main.executor": "Run",
+    "Application.oop_Encapsulation_comparingObj1ToObj2.Main.executor": "Run",
     "Application.oop_NullValue_of_a_ReferenceVariable.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
