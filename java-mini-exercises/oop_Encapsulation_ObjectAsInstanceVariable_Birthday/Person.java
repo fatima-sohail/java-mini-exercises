@@ -26,7 +26,16 @@ public class Person {
         birthday = new SimpleDate(day, month, year); //Creates a new `SimpleDate` object using the given day, month, and year.
     }
 
+    //create olderThan method to compare two objects using isEarlierThan() from the other class
+    public boolean OlderThan(Person anotherObject){
+        if(birthday.isEarlierThan(anotherObject.birthday)){
+            return true;
+        }
+        return false;
+    }
+
+
     public String toString() {
-        return this.name + ", born on " + this.birthday;
+        return name + ", born on " + birthday;
     }
 }
