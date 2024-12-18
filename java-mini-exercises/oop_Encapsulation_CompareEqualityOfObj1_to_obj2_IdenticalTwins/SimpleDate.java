@@ -1,4 +1,4 @@
-package oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins;
+package oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins;
 
 public class SimpleDate {
     int day;

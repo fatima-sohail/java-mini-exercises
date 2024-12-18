@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/Instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/SimpleDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/SimpleDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects_SONGS/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects_SONGS/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins/SimpleDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects/Song.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +115,7 @@
     "Application.oop_Encapsulation_Object_as_a_method_parameter.Main.executor": "Run",
     "Application.oop_Encapsulation_cardPayments.Main.executor": "Run",
     "Application.oop_Encapsulation_comparingObj1ToObj2.Main.executor": "Run",
+    "Application.oop_Encapsulation_comparingTheEqualityOfObjects_in_List.Main.executor": "Run",
     "Application.oop_NullValue_of_a_ReferenceVariable.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",

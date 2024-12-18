@@ -1,4 +1,4 @@
-package oop_Encapsulation_CompareObj1_to_obj2_IdenticalTwins;
+package oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins;
 
 public class Person {
     private String name;
@@ -14,13 +14,8 @@ public class Person {
         height = heighttt;
     }
 
-    public Person(String nameee, int day, int month, int year){
-        name = nameee;
-        birthday = new SimpleDate(day, month, year);
-    }
-
     @Override
-    public boolean equals(Person obj2) {
+    public boolean equals(Object obj2) {
         //if both the objects are located in the same position, they are equal, return true
         if(this == obj2){
             return true;
@@ -35,8 +30,8 @@ public class Person {
         Person obj2Person = (Person) obj2;
 
         //if the values of object variables are equal, then they both are equal
-        if(name.equals(obj2Person.name) && birthday.equals(obj2Person.birthday)
-            && weight == obj2.weight && height == obj2.height){
+        if(birthday.equals(obj2Person.birthday)
+            && weight == obj2Person.weight && height == obj2Person.height){
             return true;
         }else{
             return false;

@@ -1,0 +1,30 @@
+IDENTICAl TWINS
+
+Create a `Person` , `SimpleDate` and `Main` class.
+In `SimpleDate` //create variables day, month and year
+
+                //create constructor to initialize this class's objects, by assigning
+                //values to their instance variables
+
+In `Person` //create variables name, date of type `SimpleDate`
+            //weight and height
+
+            //create a constructor, initialzes objects(of type `Person`)
+            //and assigns these values to the instance variables of Person objects
+
+            //Add to the class Person the method `public boolean equals (Object compared)`,
+            //which can be used to compare the similarity of people.
+            //Logic: it compares the following fields:
+              birthday (via the SimpleDate.equals method)
+              weight
+              height
+              If any of these fields are different, the method returns false.
+
+In `Main` //create  three `SimpleDate` objects called date, date2, date3
+          //and four `Person` objects called leo, lala, Zor and lilly and another later
+          //use equal() to find out if any of two Person objects are twins,
+          //if true, print out "Twins"
+          //else, print out "Not Twins"
+
+          //create another Person object called `leo_with_different_weight` and compare
+          //it to leo object using equal() and see if they are twins or not.

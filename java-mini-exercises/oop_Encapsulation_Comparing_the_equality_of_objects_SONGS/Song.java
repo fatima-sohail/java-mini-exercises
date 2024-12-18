@@ -26,7 +26,7 @@ public class Song {
         this.releaseYear = releaseYearr;
     }
 
-    public boolean equals(Song obj2){
+    public boolean equals(Object obj2){
         //if variables are located in the same position, they are equal
         if(this == obj2){
             return true;
