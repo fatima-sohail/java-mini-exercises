@@ -1,4 +1,4 @@
-package oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds;
+package oop_Encapsulation_comparing_the_equality_of_objects_in_List_birds;
 
 public class Bird {
     String name;
