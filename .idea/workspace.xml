@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive/Intsructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_books/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_books/Instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_books/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_counter/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_birds/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_birds/Instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_birds/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparingTheEqualityOfObjects_in_List_birds/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_CompareEqualityOfObj1_to_obj2_IdenticalTwins/Instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_Encapsulation_Comparing_the_equality_of_objects/Song.class" beforeDir="false" />
     </list>
