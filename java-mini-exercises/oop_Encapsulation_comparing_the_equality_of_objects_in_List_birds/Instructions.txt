@@ -1,4 +1,4 @@
-Recognize birds with identical contents
+Recognize birds with identical contents in an arrayList
 
 //create a `Bird` and `Main` class
 In the Bird class: //create instance variable name
