@@ -42,8 +42,5 @@ public class Main {
         System.out.println("Archive list size/total elements: " + archiveList.size());
     }
 
-    public Car produceCar(){
-        Car car = new Car("Toyota");
-        return car;
-    }
+
 }

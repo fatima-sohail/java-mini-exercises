@@ -1,5 +1,6 @@
 package oop_encapsulation_object_as_a_methods_return_value_counter;
-
+//create a method that returns an object, the object that is of the same class as the method.
+//call it clone so everytime, it is called on object makes a copy or clone of the object.
 public class Counter {
     int value;
 
@@ -21,7 +22,9 @@ public class Counter {
     }
 
     public Counter clone(){
-        Counter clone = new Counter(value);
-        return clone;
+        Counter cloneMyObj = new Counter(value);
+        return cloneMyObj;
+        //same as
+        //return new Counter(value);
     }
 }
