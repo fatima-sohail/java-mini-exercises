@@ -3,14 +3,14 @@ IDENTICAl TWINS
 Create a `Person` , `SimpleDate` and `Main` class.
 In `SimpleDate` //create variables day, month and year
 
-                //create constructor to initialize this class's objects, by assigning
+                //create constructor to initialize object values, by assigning
                 //values to their instance variables
 
 In `Person` //create variables name, date of type `SimpleDate`
             //weight and height
 
-            //create a constructor, initialzes objects(of type `Person`)
-            //and assigns these values to the instance variables of Person objects
+            //create a constructor, initialzes objects(of type `Person`) values
+            //and assign these values to the instance variables of Person objects
 
             //Add to the class Person the method `public boolean equals (Object compared)`,
             //which can be used to compare the similarity of people.
