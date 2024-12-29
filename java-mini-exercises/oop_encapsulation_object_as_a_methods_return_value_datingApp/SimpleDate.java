@@ -35,23 +35,24 @@ public class SimpleDate {
         return false;
     }
 
-    public void advance(){
+    public void advance() {
         //moves the date by one day, assume each month is of 30 days
 
         //move the day forward by 1
         this.day = this.day + 1;
 
         //if the day exceeds 30, reset the day to 1 and increase the month
-        if(this.day > 30){
+        if (this.day > 30) {
             this.day = 1;
             this.month = this.month + 1;
         }
 
         //if months exceed 12, reset it to 1 and increase the year
-        if(this.month > 12){
+        if (this.month > 12) {
             this.month = 1;
             this.year = this.year + 1;
         }
+    }
 
         public void advance(int howManyDays){
 //            this.day = this.day + howManyDays;
@@ -70,8 +71,10 @@ public class SimpleDate {
         }
 
         public SimpleDate afterNumberOfDays(int days){
-            SimpleDate sdObj = new SimpleDate();
+            SimpleDate sdObj = new SimpleDate(this.day, this.month, this.year);
+            sdObj.advance(days);
+            return sdObj;
         }
-    }
+
 }
 
