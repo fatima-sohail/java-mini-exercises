@@ -25,11 +25,32 @@ public class Money {
 
         return euros + "." + zero + cents + "e";
     }
-    public Money plus(Money addition){
-        int totalCents = this.cents + addition.cents;
-        int totalEuros = this.euros + addition.euros;
+
+    public Money plus(Money additionObj){
+        int totalCents = this.cents + additionObj.cents;
+        int totalEuros = this.euros + additionObj.euros;
         Money newMoney = new Money(totalEuros, totalCents);
         return newMoney;
+    }
+
+    public boolean lessThan(Money comparedObj){
+        if(this.euros < comparedObj.euros){
+            return true;
+        }
+        if(this.euros == comparedObj.euros) {
+            if (this.cents < comparedObj.cents) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public Money minus(Money decreaserObj){
+        int totalCents = this.cents - decreaserObj.cents;
+        int totalEuros = this.euros - decreaserObj.euros;
+        Money newMoneyyh = new Money(totalEuros, totalCents);
+        return newMoneyyh;
     }
 
 }
