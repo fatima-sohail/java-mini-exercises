@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/intstructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_an_instance_variable_list_messaging_service/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_an_instance_variable_list_messaging_service/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_an_instance_variable_list_messaging_service/MessagingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_list_and_list_as_object_menuList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_list_and_list_as_object_menuList/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_list_and_list_as_object_songPlaylist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_objects_in_list_and_list_as_object_songPlaylist/SongPlaylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/SimpleCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithConstructor/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oopPokemonWithConstructor/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_object_as_a_methods_return_value_money/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
