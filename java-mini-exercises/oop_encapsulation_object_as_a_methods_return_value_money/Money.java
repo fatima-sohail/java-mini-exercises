@@ -49,8 +49,20 @@ public class Money {
     public Money minus(Money decreaserObj){
         int totalCents = this.cents - decreaserObj.cents;
         int totalEuros = this.euros - decreaserObj.euros;
+
+        if(totalEuros <= 0 || (totalEuros == 0 && totalCents < 0)){
+            Money newMoneyyh = new Money(0, 0);
+            return newMoneyyh;
+
+        }
+        if(totalCents < 0){
+            totalCents = totalCents + 100;
+            totalEuros = totalEuros - 1;
+        }
+
         Money newMoneyyh = new Money(totalEuros, totalCents);
         return newMoneyyh;
+
     }
 
 }

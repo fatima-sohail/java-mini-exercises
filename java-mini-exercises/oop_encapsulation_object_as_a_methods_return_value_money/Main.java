@@ -26,5 +26,24 @@ public class Main {
         System.out.println(a.lessThan(c));  //false
         System.out.println(b.lessThan(c));  //true
 
+        //call miunus() and print the result
+        System.out.println("");
+        Money aa = new Money(10, 0);
+        Money bb = new Money(3, 50);
+
+        Money cc = aa.minus(bb);
+
+        System.out.println(aa);  // 10.00e
+        System.out.println(bb);  // 3.50e
+        System.out.println(cc);  // 6.50e
+
+        cc = cc.minus(aa);       // NB: a new Money object is created, and is placed "at the end of the strand connected to c"
+//  the old 6.5 euros at the end of the strand disappears and the Java garbage collector takes care of it
+
+
+        System.out.println(aa);  // 10.00e
+        System.out.println(bb);  // 3.50e
+        System.out.println(cc);  // 0.00e
+
     }
 }
