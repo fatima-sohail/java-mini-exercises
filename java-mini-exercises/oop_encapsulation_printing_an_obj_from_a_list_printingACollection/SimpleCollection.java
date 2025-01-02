@@ -28,6 +28,25 @@ public class SimpleCollection {
         elementlist.clear();  //clears the arrayList
     }
 
+    public String longest(){
+        // Return a null reference if the collection is empty
+        if(this.elementlist.isEmpty()){
+            return null;
+        }
+        // Create an object reference for the longest string
+        // Its initial value is the first element of the list
+        String longestString = this.elementlist.get(0);
+        // Go through the list
+        for(String element: this.elementlist){
+            // Compare the current element's length with the longest string's length
+            if(longestString.length() < element.length()){
+                // If a longer string is found, assign it to longestString
+                longestString = element;
+            }
+        }
+        return longestString;
+    }
+
     @Override
     public String toString() {
         if(this.elementlist.isEmpty()){
