@@ -1,4 +1,4 @@
-package oop_encapsulation_printing_an_obj_from_a_list_printingACollection;
+package oop_encapsulation_retreiving_longest_string_and_printing_an_obj_from_a_list_printingACollection;
 //create 2 instance variables, name of type String and elementList of type String arrayList
 //constructor that takes in String parameter, create and assign a new arrayList
 //add method that adds element to the list

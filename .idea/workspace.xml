@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_from_suitcaseList_in_cargo_hold/Hold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_from_suitcaseList_in_cargo_hold/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_from_suitcaseList_in_cargo_hold/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_from_suitcaseList_in_cargo_hold/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_from_suitcaseList_in_cargo_hold/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/SimpleCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/SimpleCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_cargo_hold/Hold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_cargo_hold/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_cargo_hold/Suitcase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreiving_longest_string_and_printing_an_obj_from_a_list_printingACollection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/SimpleCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_retreiving_longest_string_and_printing_an_obj_from_a_list_printingACollection/SimpleCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_printing_an_obj_from_a_list_printingACollection/SimpleCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +121,7 @@
     "Application.oop_Encapsulation_comparing_the_equality_of_objects_in_List_Archive.Main.executor": "Run",
     "Application.oop_Encapsulation_comparing_the_equality_of_objects_in_List_books.Main.executor": "Run",
     "Application.oop_NullValue_of_a_ReferenceVariable.Main.executor": "Run",
+    "Application.oop_encapsulation_cargo_hold.Main.executor": "Run",
     "Application.oop_encapsulation_object_Santas_workshop.Main.executor": "Run",
     "Application.oop_encapsulation_object_as_a_methods_return_value_counter.Main.executor": "Run",
     "Application.oop_encapsulation_object_as_a_methods_return_value_datingApp.Main.executor": "Run",
@@ -121,6 +130,7 @@
     "Application.oop_encapsulation_objects_in_list_and_list_as_object_menuList.Main.executor": "Run",
     "Application.oop_encapsulation_objects_in_list_and_list_as_object_songPlaylist.Main.executor": "Run",
     "Application.oop_encapsulation_printing_an_obj_from_a_list_printingACollection.Main.executor": "Run",
+    "Application.oop_encapsulation_retreive_heaviest_object_from_itemList_in_suitcase_suitcaseList_in_cargoHold_cargo_hold.Main.executor": "Run",
     "Application.oop_encapsulation_retreive_height_order_obj_from_a_list_height_order.Main.executor": "Run",
     "Application.oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order.Main.executor": "Run",
     "Application.oop_encapsulation_retreive_longest_obj_from_a_list_longest_in_collection.Main.executor": "Run",

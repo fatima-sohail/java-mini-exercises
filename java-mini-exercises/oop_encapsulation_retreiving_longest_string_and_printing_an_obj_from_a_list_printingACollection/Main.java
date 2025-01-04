@@ -1,4 +1,4 @@
-package oop_encapsulation_printing_an_obj_from_a_list_printingACollection;
+package oop_encapsulation_retreiving_longest_string_and_printing_an_obj_from_a_list_printingACollection;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +23,14 @@ public class Main {
 
         characters.clearList();
         System.out.println(characters);
+
+        SimpleCollection j = new SimpleCollection("characters");
+        System.out.println("Longest: " + j.longest());
+
+        j.addElement("magneto");
+        j.addElement("mystique");
+        j.addElement("phoenix");
+
+        System.out.println("Longest: " + j.longest());
     }
 }
