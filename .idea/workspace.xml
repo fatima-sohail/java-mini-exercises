@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_simple_dictionary/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_simple_dictionary/SimpleDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_simple_dictionary/TextUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_remove_a_specific_item_from_to_do_list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_remove_a_specific_item_from_to_do_list/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_remove_a_specific_item_from_to_do_list/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_cargo_hold/Suitcase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_simple_dictionary/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_simple_dictionary/SimpleDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +118,8 @@
     "Application.oop_encapsulation_object_as_a_methods_return_value_counter.Main.executor": "Run",
     "Application.oop_encapsulation_object_as_a_methods_return_value_datingApp.Main.executor": "Run",
     "Application.oop_encapsulation_object_as_a_methods_return_value_money.Main.executor": "Run",
+    "Application.oop_encapsulation_object_modify_to_do_list.Main.executor": "Run",
+    "Application.oop_encapsulation_object_remove_a_specific_item_from_to_do_list.Main.executor": "Run",
     "Application.oop_encapsulation_object_simple_dictionary.Main.executor": "Run",
     "Application.oop_encapsulation_objects_in_an_instance_variable_list_messaging_service.Main.executor": "Run",
     "Application.oop_encapsulation_objects_in_list_and_list_as_object_menuList.Main.executor": "Run",
