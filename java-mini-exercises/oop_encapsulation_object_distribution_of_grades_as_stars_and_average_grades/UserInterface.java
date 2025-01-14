@@ -1,4 +1,4 @@
-package oop_encapsulation_object_distribution_of_grades_as_stars;
+package oop_encapsulation_object_distribution_of_grades_as_stars_and_average_grades;
 //two essential parts of UI
     //reading the points
     //printing the grade distribution, means how many students received each possible grade,
