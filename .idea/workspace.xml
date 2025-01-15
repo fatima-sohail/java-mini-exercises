@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_joke_Manager/JokeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_joke_Manager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_joke_Manager/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPokemonWithConstructor/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/GradeRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars_and_average_grades/GradeRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars_and_average_grades/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars_and_average_grades/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/GradeRegister.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_object_distribution_of_grades_as_stars/UserInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
