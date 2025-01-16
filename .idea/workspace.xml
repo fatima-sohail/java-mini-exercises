@@ -127,7 +127,12 @@
     &quot;Application.oop_encapsulation_retreive_height_order_obj_from_a_list_height_order.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.oop_encapsulation_retreive_longest_obj_from_a_list_longest_in_collection.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Fatima/Documents/GitHub/java-mini-exercises&quot;

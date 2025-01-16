@@ -21,14 +21,14 @@ public class Pokemon {
     //if you want preset value for your object, constructor is your friend
     //constructor's name should be same as class name
     //constructor's can be with parameters or without parameters
-    Pokemon(){
+    public Pokemon(){
         level = 2;
     }
 
     //if you want user to give name and level, how do you do that?
-    //create a constructor, its named after its class, so variable naming convention is gonna be
-    //the same as its class variables
-    Pokemon (String pName, int pLevel){
+    //create a constructor, its named after its class, so variable naming convention is
+    //gonna the same as its class variables
+    public Pokemon (String pName, int pLevel){
         //variable names are same as class variables
         name = pName;
         level = pLevel;
