@@ -1,52 +1,11 @@
-package algorithem_selection_sort;
+package algorithm_selection_sort_array_type_int;
 
-import java.util.Arrays;
-
-public class MainProgram {
-    public static void main(String[] args) {
-        int[] numArray = {6,5,4,7,11};
-        System.out.println("smallest: " + MainProgram.smallest(numArray));
-        System.out.println("Index of the smallest number: " + MainProgram.indexOfSmallest(numArray));
-
-        int[] numbers = {-1, 6, 9, 8, 12};
-        //below: Starting from index 0, the smallest number is -1 and its index is 0.
-        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 0));
-
-        //below method call searches for the index of the smallest value starting
-        //from index 1. In this case the smallest number is 6 and its index is 1.
-        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 1));
-
-        //below method call searches for the index of the smallest value starting at index 2.
-        //Then the smallest number is 8 and its index is 3.
-        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 2));
-
-        System.out.println();
-        int[] numbers2 = {3, 2, 5, 4, 8};
-        //Array. is a pre added class in java library, import it
-        System.out.println(Arrays.toString(numbers2));
-
-        MainProgram.swap(numbers2, 1, 0);
-        System.out.println(Arrays.toString(numbers2));
-
-        MainProgram.swap(numbers2, 0, 3);
-        System.out.println(Arrays.toString(numbers2));
-
-        System.out.println();
-        int[] numbers3 = {8, 3, 7, 9, 1, 2, 4};
-        MainProgram.sort(numbers3);
-        System.out.println(Arrays.toString(numbers3));
-        
-        //you can also use java inbuilt sort()
-//        Arrays.sort(numbers3);
-//        System.out.println(Arrays.toString(numbers3));
-
-    }
-
+public class Algorithm {
     //create instance varriable `numArray` of type int to store numbers
     int[] numArray;
 
     //create a constructor class
-    public MainProgram(int size){
+    public Algorithm(int size){
         numArray = new int[size];
     }
 
@@ -109,24 +68,25 @@ public class MainProgram {
         array[index2] = temp;
     }
 
-    public static void sort(int[] array) {
+    public static void selectionSort(int[] array) {
         //print the array before sorting
-       printArray(array);
+        printArray(array);
 
-        //do sorting
-
+        //do sorting and print the array afterwards
         for(int i = 0; i<array.length; i++){
             //find the index of smallest element from index i onwards
             int smallestIndexFrom = indexOfSmallestFrom(array, i);
 
-            //if the smallest index is different from i, swap the elements,
-            //If smallestIndex == i, no swap is needed because the element is already in the
-            //correct position
-            //print the array after the swap
+            //for sorting, go through the array
+            //Find the index of the smallest element from index i onwards(sel.sort works by selecting the smallest element in the remaining unsorted portion of the array)
+            //If the smallest element is not already at position i, swap
+            //it with the element at position i
             if(smallestIndexFrom != i){
                 swap(array, i, smallestIndexFrom);
                 printArray(array);
             }
+            //if you just want to print the final array
+            //printArray(array)
         }
     }
 
