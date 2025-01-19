@@ -11,7 +11,7 @@ public class Algorithm {
 
     //smallest, index of the smallest value, indexOfSmallest, indexOfSmallestFrom, swap,
     //sort, print
-    public static String Smallest(String[] array){
+    public static String smallest(String[] array){
         //if the array is empty, exit the program
         if(array.length == 0){
             System.out.println("Array is empty");

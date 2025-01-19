@@ -2,24 +2,24 @@ package algorithm_selection_sort_string_type_string;
 
 import java.util.ArrayList;
 
-public class Algorithm {
+public class AlgorithmInList {
     //create an arrayList
     ArrayList<String> stringList;
     //constructor
-    public Algorithm(){
+    public AlgorithmInList(){
         stringList = new ArrayList<>();
     }
 
     //create the following methods:
     //smallestString, indexOfSmallestString, indexOfSmallestFrom, swap, sort
 
-    public static String smallest(ArrayList<String> stringListt){
+    public static String smallest(ArrayList<String> stringList){
         //assume the first string is the smallest
-        String smallesString = stringListt.get(0);
+        String smallesString = stringList.get(0);
 
         //iterate through the list
-        for(int i =1; i< stringListt.size(); i++){
-            String current = stringListt.get(i);
+        for(int i =1; i< stringList.size(); i++){
+            String current = stringList.get(i);
             if(current.compareTo(smallesString) < 0){ //if the current is lexicographically smaller
                 smallesString = current; //update the smallestString
             }
@@ -29,17 +29,14 @@ public class Algorithm {
     }
 
     //finding the position(index) of smallestString in the list
-    public static int indexOfSmallest(ArrayList<String> stringListt){
+    public static int indexOfSmallest(ArrayList<String> stringList){
         //assume index of smallest is 0
         int indexOfSmallest = 0;
-        //assume smallestString is at index 0
-        String smallestString = stringListt.get(0);
 
         // Loop through the array to find the smallest string's index
-        for(int i = 1; i< stringListt.size(); i++){
+        for(int i = 1; i< stringList.size(); i++){
             // Compare each element with the smallest one found so far
-            String currentString = stringListt.get(i);
-            if(currentString.compareTo(smallestString) < 0){
+            if(stringList.get(i).compareTo(stringList.get(indexOfSmallest)) < 0){
                 indexOfSmallest = i;  // If a smaller string is found, update the index
             }
         }
@@ -86,9 +83,9 @@ public class Algorithm {
         for(int i = 0; i< stringList.size(); i++){
             //print out the list, if its not the last element in the list, add
             //commas btw them
-            System.out.println(stringList.get(i));
+            System.out.print(stringList.get(i));
             if(i<stringList.size()-1){
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         //print a new line after the array

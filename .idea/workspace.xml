@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_int/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/algorithem_selection_sort/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_int/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/algorithem_selection_sort/MainProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_array_type_string/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/AlgorithmInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/algorithm_selection_sort_string_type_string/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +88,7 @@
     "Application.algorithem_selection_sort_type_int.Main.executor": "Run",
     "Application.algorithm_selection_sort_array_type_int.Main.executor": "Run",
     "Application.algorithm_selection_sort_array_type_string.Main.executor": "Run",
+    "Application.algorithm_selection_sort_string_type_string.Main.executor": "Run",
     "Application.file_IsItInTheFile.Main.executor": "Run",
     "Application.file_NumbersFromAFile.Main.executor": "Run",
     "Application.file_RecordsFromAFile.Main.executor": "Run",
