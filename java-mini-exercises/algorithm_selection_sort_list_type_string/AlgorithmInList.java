@@ -1,4 +1,4 @@
-package algorithm_selection_sort_string_type_string;
+package algorithm_selection_sort_list_type_string;
 
 import java.util.ArrayList;
 
@@ -45,7 +45,7 @@ public class AlgorithmInList {
     }
 
     public static int indexOfSmallestFrom(ArrayList<String> stringList, int startIndex){
-        //assume index of smallest starts from 'indexFrom' rather than 0
+        //assume index of smallest starts from 'startIndex' rather than 0
         int smallestIndex = startIndex;
 
 
@@ -69,13 +69,14 @@ public class AlgorithmInList {
 
     }
 
-    public static void sort(ArrayList<String> stringList){
-        for(int i = 0; i< stringList.size(); i++){
+    public static void sort(ArrayList<String> stringList) {
+        for (int i = 0; i < stringList.size(); i++) {
             int indexOfSmallestFrom = indexOfSmallestFrom(stringList, i);
 
-            if(indexOfSmallestFrom != i)
-            swap(stringList, i, indexOfSmallestFrom);
-            printList(stringList);
+            if (indexOfSmallestFrom != i) {
+                swap(stringList, i, indexOfSmallestFrom);
+                printList(stringList);
+            }
         }
     }
 

@@ -116,7 +116,6 @@ public class Algorithm {
 
         //print the final updated array
         //printArray(array);
-
     }
 
     //print the array in this format: [2,3,4,5]

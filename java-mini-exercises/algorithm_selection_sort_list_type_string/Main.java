@@ -1,8 +1,8 @@
-package algorithm_selection_sort_string_type_string;
+package algorithm_selection_sort_list_type_string;
 
 import java.util.ArrayList;
 
-import static algorithm_selection_sort_string_type_string.AlgorithmInList.indexOfSmallestFrom;
+import static algorithm_selection_sort_list_type_string.AlgorithmInList.indexOfSmallestFrom;
 
 public class Main {
     public static void main(String[] args) {
