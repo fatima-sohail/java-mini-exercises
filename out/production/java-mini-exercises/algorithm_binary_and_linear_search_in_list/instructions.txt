@@ -1,0 +1,5 @@
+Binary and Linear search visualization:
+https://www.cs.usfca.edu/~galles/visualization/Search.html
+
+//In this exercise you will implement linear search and binary search
+//algorithms for searching for books in a list by their numeric id.
