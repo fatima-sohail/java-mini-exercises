@@ -8,7 +8,7 @@
 //create a method that prints the person's name and age, that will be used by objects
 //create growOlder() method that when called, increases the age of the objects by 1
 
-//create Main file
+//create NickNames file
 //create two objects Ada and Antii in this file and call the above methods on them
 
 package oopAgeGrowOlder;

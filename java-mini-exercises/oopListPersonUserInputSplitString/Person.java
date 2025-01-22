@@ -8,7 +8,7 @@
     //Mindy, age: 3 years
     //Sylvie, age: 10 years
 
-//In the Main file, create arrayList that stores objects based on user input
+//In the NickNames file, create arrayList that stores objects based on user input
 //create scanner object to make the console ready to receive user input
 //create an empty arrayList
 //show the user format for inputting data: "Enter the person's details separated by a comma, e.g.: Randall,2"

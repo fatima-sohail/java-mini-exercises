@@ -1,4 +1,4 @@
-//in Main class, create a Person object,
+//in NickNames class, create a Person object,
 //create a TimeMachine object and pass in argument of type 'Person class'
 //call travelToFuture() on machine object and specify how many years you want to go in future
 //print the future year the object is in

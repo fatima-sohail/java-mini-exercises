@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/bird_watcher/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/bird_watcher/BirdDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/bird_watcher/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/bird_watcher/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/bird_watcher/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map/NickNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map/Translation_of_nums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopAgeGrowOlder/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopAgeGrowOlder/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopItemsUserInputTimeStamp/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopItemsUserInputTimeStamp/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopListPersonDoubleUserInput/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonDoubleUserInput/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputSplitString/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonUserInputSplitString/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopListPersonalInfoDoubleUserInput/PersonalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopListPersonalInfoDoubleUserInput/PersonalInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopListTVprogramMaxDuration/TvProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopListTVprogramMaxDuration/TvProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/instructions.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oopPaymentCard/instructions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectInAnObject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_Encapsulation_ObjectInAnObject/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Adulthood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Adulthood.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" afterDir="false" />
@@ -125,6 +130,7 @@
     "Application.file_RecordsFromAFile.Main.executor": "Run",
     "Application.file_SportStatistics.Main.executor": "Run",
     "Application.file_StoringRecords.Main.executor": "Run",
+    "Application.hash_map_nicknames.Main.executor": "Run",
     "Application.oop2_ConstructorOverload.Main.executor": "Run",
     "Application.oop2_Fitbyte.Main.executor": "Run",
     "Application.oop2_OverloadedCounter.Main.executor": "Run",

@@ -40,7 +40,7 @@
 //PART1: The class template
 //The project will include two code files:
 //
-//The exercise template comes with a code file called Main, which contains the main method.
+//The exercise template comes with a code file called NickNames, which contains the main method.
 //
 //First, create the PaymentCard object's constructor, which is passed the opening balance
 // of the card, and which then stores that balance in the object's internal variable.
@@ -214,7 +214,7 @@
 // the beginning of it)
 //The main program's template is as follows:
 //
-//public class Main {
+//public class NickNames {
 //    public static void main(String[] args) {
 //        PaymentCard paulsCard = new PaymentCard(20);
 //        PaymentCard mattsCard = new PaymentCard(30);

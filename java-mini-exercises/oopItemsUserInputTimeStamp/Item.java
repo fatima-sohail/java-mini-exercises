@@ -15,7 +15,7 @@
 //create a toString() method that returns items/objects in the array in this format:
 //this.name + "(created at: " + formattedDate + ")";
 
-//In the Main file:
+//In the NickNames file:
 //create an empty array to store objects(items) entered by the user
 //read the userInput using a while loop:
     //ask the user to enter a name, empty string will terminate the program,

@@ -7,7 +7,7 @@
     //John White, IdentificationNumber = 123
     //Mary Young, IdentificationNumber = 345
 
-//In the Main file
+//In the NickNames file
 //prepare the console to receive input using scanner object
 //create an empty ArrayList<> called collectionInfo to store objects based on userInput
 //keep creating objects until you terminate the program, how:

@@ -4,7 +4,7 @@
 //later asked as two separate questions from users.
 //create a toString() method that returns: name, age in years
 
-//in Main file:
+//in NickNames file:
 //prepare the console to read the input
 //create an empty array
 //in the while loop:

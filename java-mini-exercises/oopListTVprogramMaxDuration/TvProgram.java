@@ -2,7 +2,7 @@
 //representing a television program. The class has object variables name and
 //duration, a constructor, and a few methods.
 //
-//Main file:
+//NickNames file:
 //Implement a program that begins by reading television programs from the user. When
 //the user inputs an empty string as the name of the program, the program stops reading
 //programs.
