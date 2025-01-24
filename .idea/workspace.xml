@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map/NickNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map/NickNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map/Translation_of_nums.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map/Translation_of_nums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Adulthood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Adulthood.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" afterDir="false" />
@@ -39,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_nicknames/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
