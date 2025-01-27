@@ -1,4 +1,6 @@
-package hash_map_use_obj_as_hashmap_value_library;
+package hash_map_vs_list_library;
+
+import java.util.ArrayList;
 
 public class Book {
     // create instance variables for book
@@ -36,10 +38,18 @@ public class Book {
         this.content = content;
     }
 
+    //to use in list
+    public static Book get(ArrayList<Book> books, String name){
+        for(Book book: books){
+            if(book.getName().equals(name)){
+                return book;
+            }
+        }
+        return null;
+    }
 
     public String toString() {
         return "Name: " + this.name + " (" + this.published + ")\n"
                 + "Content: " + this.content;
     }
-
 }

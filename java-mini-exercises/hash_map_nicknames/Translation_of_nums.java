@@ -1,4 +1,4 @@
-package hash_map;
+package hash_map_nicknames;
 
 import java.util.HashMap;
 

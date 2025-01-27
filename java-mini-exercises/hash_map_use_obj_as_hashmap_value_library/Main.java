@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        //create a hashmap obj/hashmap table with key type `String` and value type `Book`
+        //create a hashmap obj with key type `String` and value type `Book`
         HashMap<String, Book> directory = new HashMap<>();
 
         //create objs of value--> Book first to put it in the hashmap
@@ -33,13 +33,13 @@ public class Main {
         //System.out.println(hp2);
 
         Book sw = directory.get("Snow White");
-        System.out.println(sw); //returns null cz it doesn't exist in the above hashmap table
+        System.out.println(sw); //returns null cz it doesn't exist in the above hashmap
 
         //print the directory
         System.out.println();
         System.out.println(directory);
 
-        //change the name of harry Potter to something else using set() and print the haspmap table
+        //change the name of harry Potter to something else using set() and print the haspmap
         Book hpReference = directory.get("Harry Potter");
         hpReference.setName("SomeOtherBook");
 

@@ -2,7 +2,7 @@ Things to learn:
     //store the key value pairs/entries in a hashmap
     //retrieve each entry
     //retrieve a specific field from a value
-    //chane a specific field of a value and print it
+    //change a specific field of a value and print it
 
 Task:
     //Let's take a look at how a spreadsheet works using a library example. You can search for
