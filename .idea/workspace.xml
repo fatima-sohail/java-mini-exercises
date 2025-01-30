@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Abbreviations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Abbreviations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Abbreviations.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations__of_string_type_find_value_using_a_portion_of_key/Abbreviations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations__of_string_type_find_value_using_a_portion_of_key/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_nicknames/NickNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_intro/NickNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_nicknames/Translation_of_nums.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_intro/Translation_of_nums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_vs_list_library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_vs_list_library/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" afterDir="false" />
@@ -41,9 +53,20 @@
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Abbreviations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_nicknames/NickNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_nicknames/Translation_of_nums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_use_obj_as_hashmap_value_library/instructions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_vs_list_library/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_vs_list_library/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,8 +156,10 @@
     "Application.file_SportStatistics.Main.executor": "Run",
     "Application.file_StoringRecords.Main.executor": "Run",
     "Application.hash_map_abbreviations_find_value_using_key.Main.executor": "Run",
+    "Application.hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key.Main.executor": "Run",
     "Application.hash_map_library_going_through_hash_maps_keys.Main.executor": "Run",
     "Application.hash_map_nicknames.Main.executor": "Run",
+    "Application.hash_map_print_my_program.Main.executor": "Run",
     "Application.hash_map_sanitize_dont_repeat_and_trim_library.Main.executor": "Run",
     "Application.hash_map_use_obj_as_hashmap_value_library.Main.executor": "Run",
     "Application.hash_map_vs_list_library.Main.executor": "Run",

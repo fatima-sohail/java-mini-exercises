@@ -2,6 +2,7 @@ package hash_map_vs_list_library;
 //add 10 thousand books to the list and hashmap to compare which data structure
 //finds the book in search faster
 //hashmap is faster and is recommended for longer lists if you know the key already
+//only enhanced for loop is used in hashmap, cz hashmap lacks index
 
 import java.util.ArrayList;
 import java.util.HashMap;
