@@ -21,7 +21,6 @@ public class Library {
     //create a sanitize method to sanitize book title
     public static String sanitize(String title) {
         //if string is null, return empty
-
         if(title == null){
             return "";
         }
@@ -48,7 +47,7 @@ public class Library {
         String sanitizeTitle = sanitize(bookTitle);
 
         if(this.directory.containsKey(sanitizeTitle)){
-            this.directory.remove(bookTitle);
+            this.directory.remove(sanitizeTitle);
         }else{
             System.out.println("Book was not found, can't be removed");
         }
@@ -58,12 +57,12 @@ public class Library {
         //sanitize the name first
         //if this name already exists in the directory, print "this book already exists"
         //else store in the directory using put()
-        String sanitizeTheName = sanitize(bookObj.getName());
+        String sanitizeTitle = sanitize(bookObj.getName());
 
-        if(this.directory.containsKey(sanitizeTheName)){
+        if(this.directory.containsKey(sanitizeTitle)){
             System.out.println("The book is already in the library");
         }else{
-            this.directory.put(sanitizeTheName, bookObj);
+            this.directory.put(sanitizeTitle, bookObj);
         }
     }
 

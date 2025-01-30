@@ -1,4 +1,4 @@
-package hash_map_library_going_through_hash_maps_keys;
+package hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book;
 
 public class Book {
     // create instance variables for book

@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Abbreviations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_find_value_using_key/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_go_through_hash_map_key_vs_hash_map_value_using_a_part_of_key_to_retreive_a_book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_going_through_hash_maps_keys/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_sanitize_trim_and_dont_repeat/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" afterDir="false" />
@@ -39,6 +41,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_sanitize_dont_repeat_and_trim_library/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +132,8 @@
     "Application.file_RecordsFromAFile.Main.executor": "Run",
     "Application.file_SportStatistics.Main.executor": "Run",
     "Application.file_StoringRecords.Main.executor": "Run",
+    "Application.hash_map_abbreviations_find_value_using_key.Main.executor": "Run",
+    "Application.hash_map_library_going_through_hash_maps_keys.Main.executor": "Run",
     "Application.hash_map_nicknames.Main.executor": "Run",
     "Application.hash_map_sanitize_dont_repeat_and_trim_library.Main.executor": "Run",
     "Application.hash_map_use_obj_as_hashmap_value_library.Main.executor": "Run",
