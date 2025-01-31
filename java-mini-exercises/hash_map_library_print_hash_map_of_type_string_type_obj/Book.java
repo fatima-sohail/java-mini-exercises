@@ -1,4 +1,4 @@
-package hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value;
+package hash_map_library_print_hash_map_of_type_string_type_obj;
 
 public class Book {
     // create instance variables for book

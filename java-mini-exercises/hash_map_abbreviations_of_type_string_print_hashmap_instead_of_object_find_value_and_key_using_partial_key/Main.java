@@ -1,8 +1,8 @@
-package hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key;
+package hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_find_value_and_key_using_partial_key;
 
 import java.util.HashMap;
 
-import static hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key.Abbreviations.*;
+import static hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_find_value_and_key_using_partial_key.Abbreviations.*;
 
 public class Main {
     public static void main(String[] args) {

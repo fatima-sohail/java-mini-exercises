@@ -1,4 +1,4 @@
-package hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat;
+package hash_map_library_of_type_string_type_object_print_object_sanitize_trim_and_dont_repeat;
 
 public class Main {
     public static void main(String[] args) {

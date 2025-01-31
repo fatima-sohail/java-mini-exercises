@@ -1,4 +1,4 @@
-package hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book;
+package hash_map_library_of_type_string_type_obj_print_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book;
 
 public class Book {
     // create instance variables for book
