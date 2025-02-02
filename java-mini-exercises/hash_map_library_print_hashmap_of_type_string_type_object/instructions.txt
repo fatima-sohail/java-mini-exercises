@@ -1,0 +1,31 @@
+THINGS IN FOCUS:
+    //Type: Hashmap<String, Object>
+
+    //print hashmap, not a class object
+
+    //The order of entries in a HashMap is not guaranteed.
+    //meaning when you iterate over the entries, the order in which they
+    //are returned might not match the order in which they were inserted.
+
+    //print all values of type Obj, without using the keys i.e:
+        //public static void printValues(HashMap<String,Book> hashmap)
+
+
+    //If the value is an object (in this case, a Book), the method will print the object
+    //if one of its fields (e.g., the name field) contains a portion of a string you provide.
+    //For instance, if you type "pride" and the Book object's name contains "Pride", the
+    //whole object will be printed.
+        //public static void printValueIfNameContains(HashMap<String,Book> hashmap, String text)
+
+
+TASK:
+    //There is a Book class and Program class
+
+    //Implement these methods in Program class:
+        //public static void printValues(HashMap<String,Book> hashmap)
+        //this method prints all the values in the hashmap given as a parameter the
+        //toString method of the Book objects.
+
+        //public static void printValueIfNameContains(HashMap<String,Book> hashmap, String text)
+        //this method prints only the Books in the given hashmap which name contains
+        //the given string. You can find out the name of a Book with the method getName.
