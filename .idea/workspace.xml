@@ -4,59 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hashmap_of_type_string_type_object/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hashmap_of_type_string_type_object/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hashmap_of_type_string_type_object/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hashmap_of_type_string_type_object/instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Abbreviations.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_find_value_and_key_using_partial_key/Abbreviations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_find_value_and_key_using_partial_key/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_find_value_and_key_using_partial_key/instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_print_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_print_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_print_obj_go_through_key_vs_value_using_a_portion_of_key_to_retreive_a_book/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hash_map_of_type_string_type_obj/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hash_map_of_type_string_type_obj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_obj_use_obj_as_hashmap_value/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_print_hash_map_of_type_string_type_obj/instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_print_object_sanitize_trim_and_dont_repeat/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_print_object_sanitize_trim_and_dont_repeat/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_sanitize_trim_and_dont_repeat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_library_of_type_string_type_object_print_object_sanitize_trim_and_dont_repeat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_print/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AreWeThereYet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintNeatly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayPrintStars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayStoreNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArrayStoreNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArraySum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/ArraySwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/ArraySwap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Average.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Average.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/AverageOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/AverageOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Averaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Averaging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/CallingDivision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/CallingDivision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/CarryOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/CarryOn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/CodeMagnets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/CodeMagnets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Conversation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/DoubleOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/DoubleOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/EvenOrOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/EvenOrOdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Everywhere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Everywhere.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_IsItInTheFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_IsItInTheFile/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_NumbersFromAFile/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_PrintingASpecificFile/PrintFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_PrintingASpecificFile/PrintFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_ReadAndPrintAFile/PrintAndRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_ReadAndPrintAFile/PrintAndRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_RecordsFromAFile/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_SportStatistics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/file_StoringRecords/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Abbreviations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/hash_map_abbreviations_of_type_string_print_hashmap_instead_of_object_get_value_and_key_using_partial_key/instructions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order/Room.class" afterDir="false" />
-    </list>
+    <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +159,7 @@
       <recent name="C:\Users\Fatima\Documents\GitHub\java-mini-exercises\java-mini-exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithm_selection_sort_array_type_int.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oopListPersonalInfoDoubleUserInput.Main" />
       <module name="java-mini-exercises" />
