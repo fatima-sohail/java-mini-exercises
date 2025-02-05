@@ -1,0 +1,19 @@
+THINGS TO FOCUS:
+    //using hasmap to update count for a specific item(in this case fruit sales)
+    //hashmap's value acts as a counter, count and update the value
+
+TASK:
+    CLASS FRUIT_COUNTER:
+    //count the sales of different fruits using a HashMap
+    // Hashmap<String, Integer> salemap. key:fruit name, value:sale count
+
+    //public void addSale(String keyFruit) {} adds the sale of a fruit, imcrements it and
+    //updates the hashmap
+
+    //public int getSales(String keyFruit) {} returns the sales count or 0 if the fruit
+    //doesn't exist in the map
+
+    MAIN FILE:
+    //In the main, create a counter obj of class fruit_counter
+    //add fruits to it
+    //print out number of times a specific fruit got sold
