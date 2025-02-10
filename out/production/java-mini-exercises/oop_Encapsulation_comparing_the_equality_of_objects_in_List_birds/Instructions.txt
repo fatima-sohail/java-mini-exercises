@@ -1,0 +1,27 @@
+Recognize birds with identical contents in an arrayList
+
+//create a `Bird` and `Main` class
+In the Bird class: //create instance variable name
+                   //create a constructor to initialize object values
+                   //create a comparison method called `boolean equal(Object compared)`
+                       //which can be used to compare the similarity of birds.
+                        //Logic: it compares the following fields:
+                           name
+                           If any of these fields are different, the method returns false.
+
+In the `Main` class: //create an empty arrayList of type Bird
+                     //create a Bird type object and store it in variable `mockingJay`
+                     //use .contains() on arrayList to see if the list contains this object
+                     //if it does, print "MockingJay is on the list"
+                     //else, print "Not on the list"
+
+                     //use .add() on arrayList to add mockingJay object in the list
+                     //see if the object is added to the list using .contains()
+
+                     //reassign the variable `mockingjay` to a new object with same values
+                     //see if birdList contains the above object
+                     //it should print: Not in the list
+                     //cz, different objects(different addresses) having same value
+
+
+
