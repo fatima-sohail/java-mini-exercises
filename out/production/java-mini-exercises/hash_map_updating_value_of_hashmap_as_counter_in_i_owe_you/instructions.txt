@@ -1,0 +1,6 @@
+THINGS TO LEARN:
+    //storing or updating the value associated with a specific key in the
+    //hashmap i.e public void setSum(String toWhom, double amount)
+
+    //use key to retreive the value i.e
+    //public double howMuchDoIOweTo(String toWhom)
