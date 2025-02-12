@@ -50,13 +50,11 @@ public class Messages {
 
         if(!messageList.contains(mms)){
             messageList.add(sms);   //sms is added again, cz list does not contain any
-                                    //mms obj, if it did, then sms won't be added
+                                    //mms obj, if it did, then sms won't be added in
+                                    //both the if statements
         }
 
-
-
         System.out.println(messageList.size()); //prints: 5
-
     }
 
 }

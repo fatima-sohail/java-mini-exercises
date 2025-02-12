@@ -9,6 +9,8 @@ public class Notepad {
         this.year = year;
     }
 
+    //different from hashmap's equals(), see description in `Book class` in folder
+    //`oop_obj_field_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower`
     public boolean equals(Object comparedObj){
         //return false, if the provided obj is null, or the provided obj is not
         //an instance of the current class
@@ -21,7 +23,7 @@ public class Notepad {
             return true;
         }
 
-        //if the provided obj has passed prev. checks, treat the provided obj as an instance
+        //if above conditions are not met, treat the provided obj as an instance
         //of notePad class through casting (we have already checked above that the provided obj
         //is an instance of notePad class)
         Notepad providedObj = (Notepad) comparedObj;
