@@ -32,5 +32,8 @@ public class Main {
         System.out.println("d2's birthday is earlier than d3: " + d2.isEarlierThan(d3));
         System.out.println("d3's birthday is earlier than d2: " + d3.isEarlierThan(d2));
 
+        System.out.println("d1's difference in years than date: " + d1.differenceInYears(date));
+        //prints: 1231
+
     }
 }

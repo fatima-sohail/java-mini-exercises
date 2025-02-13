@@ -47,4 +47,21 @@ public class SimpleDate {
 
         return false; // If day is the same or later, return false
     }
+
+    public int differenceInYears(SimpleDate other) {
+        if (isEarlierThan(other)) {
+            return other.differenceInYears(this);
+        }
+
+        int yearRemoved = 0;
+
+        if (this.month < other.month) {
+            yearRemoved = 1;
+        } else if (this.month == other.month && this.day < other.day) {
+            yearRemoved = 1;
+        }
+
+        return this.year - other.year - yearRemoved;
+    }
+
 }

@@ -23,13 +23,8 @@ public class Notepad {
             return true;
         }
 
-        //if above conditions are not met, treat the provided obj as an instance
-        //of notePad class through casting (we have already checked above that the provided obj
-        //is an instance of notePad class)
-        Notepad providedObj = (Notepad) comparedObj;
-
-        //now you can access the provided obj's fields
-        return this.name.equals(providedObj);
+        //objs are not same
+        return false;
     }
 
 }
