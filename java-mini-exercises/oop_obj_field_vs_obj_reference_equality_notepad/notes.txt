@@ -1,0 +1,19 @@
+//two kinds of equals()
+    1. predefined in java lib: it says - if reference of both objs are same, objs are equal.
+        this is what we used in notebook task.
+        i.e obj.equals(comparedObj)
+
+    2. you can create customized equals: it says - if fields of both objs are identical, even
+       though reference is not same, objs are equal - very helpful in storing license plates
+       and their owners in hashmap, cz no two owners are gonna have a same license plate.
+
+// @Override
+          -used only when you are customizing, rewriting (overriding) a method that already
+            exists in a parent class or in java library. equals() is an inbuilt method in
+            java library.
+          -Helps prevent mistakes: If you mistype equals (e.g., equal), without @Override,
+          Java won’t catch the error—it’ll treat it as a new method.
+
+
+// In Main file,
+    objs with different references but identical fields are not equal.

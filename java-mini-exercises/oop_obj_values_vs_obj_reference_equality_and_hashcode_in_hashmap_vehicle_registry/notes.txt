@@ -1,0 +1,58 @@
+//two kinds of equals() and hashCode()
+    1. predefined in java lib: it says - if reference of both objs are same, objs are equal
+        and produce same hashCode(),
+        i.e obj.equals(comparedObj)
+
+    2. you can create customized equals: it says - if fields of both objs are identical, even
+       though reference is not same, objs are equal and produce the same hashCode - very
+       helpful in storing license plates or ID's
+       and their owners in hashmap, cz no two owners are gonna have a same license plate.
+
+// hashCode() what is it?
+       -only used for obj in hashmap, hashcode() returns a unique integer
+       -since the entries aren't stored in a fixed order in hashmap,
+        each key value pair has a unique integer associated with it, this integer helps us to
+        identify and retrieve the entry we are looking for.
+
+// @Override
+          -used only when you are customizing, rewriting (overriding) a method that already
+            exists in a parent class or in java library. equals() is an inbuilt method in
+            java library.
+          -Helps prevent mistakes: If you mistype equals (e.g., equal), without @Override,
+          Java won’t catch the error—it’ll treat it as a new method.
+
+// Hasmap's key type: object, value type: string` which is opposite in folders
+    that start with `hash_map_....` key: obj, value: string
+
+// In Main file,
+    //Testing different cases in licensePlate hashmap:
+        1. Check if multiple owners (values) are mapped to the same license plate (key)
+        Example:
+        demi → ATC-580
+        swiftie → ATC-580
+        This should not happen, as a single license plate can only belong to one owner.
+
+        2. Check if an owner (same value) has multiple unique license plates (different keys)
+          Example:
+          luca → ZW-233
+          luca → JPN-711
+          This is fine, as an owner can have multiple cars with different license plates.
+
+    // Testing different cases in VehicleRegistry
+         1. Adding two license plates with different owners
+         2. Adding a duplicate license plate and ensuring it doesn’t get added again
+         3. Removing a license plate and checking if it's removed successfully
+         4. Retrieving owners by license plate
+
+         5. Add multiple entries and test how many are accepted and which can be retrieved:
+
+            What happens if you add a duplicate license plate?
+            → It should not create a new entry; the first one remains unchanged.
+
+            What happens if you retrieve a license plate that doesn’t exist?
+            → The system should return null.
+
+            Remove license plates and verify the result:
+            After removing a license plate, ensure that both the plate and its associated
+            owner are no longer in the registry.
+

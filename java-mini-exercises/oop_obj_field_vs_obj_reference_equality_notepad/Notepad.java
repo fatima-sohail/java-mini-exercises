@@ -9,8 +9,16 @@ public class Notepad {
         this.year = year;
     }
 
-    //different from hashmap's equals(), see description in `Book class` in folder
-    //`oop_obj_field_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower`
+    @Override //add this before equals
+    //@Override is used only when you are customizing, rewriting (overriding) a method that
+    //already exists in a parent class or in java lib. equals() is an inbuilt method in
+    //java lib
+
+    //this equals behaves same as java's inbuilt lib method, which is it
+    //checks if two objects point to the same memory location
+
+    //sometimes you need make customized equals(), that checks if the obj fields are identical,
+    //they are equal, even though objs memory locations are different
     public boolean equals(Object comparedObj){
         //return false, if the provided obj is null, or the provided obj is not
         //an instance of the current class

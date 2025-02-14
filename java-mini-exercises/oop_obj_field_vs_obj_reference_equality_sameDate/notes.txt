@@ -1,0 +1,28 @@
+//two kinds of equals()
+    1. predefined in java lib: it says - if reference of both objs are same,
+        i.e obj.equals(comparedObj)
+
+    2. you can create customized equals: it says - if fields of both objs are identical, even
+       though reference is not same, objs are equal - very
+       helpful in storing license plates or ID's
+       and their owners in hashmap, cz no two owners are gonna have a same license plate.
+
+// hashCode() what is it?
+       -only used for obj in hashmap, hashcode() returns a unique integer
+       -since the entries aren't stored in a fixed order in hashmap,
+        each key value pair has a unique integer associated with it, this integer helps us to
+        identify and retrieve the entry we are looking for.
+
+// @Override
+          -used only when you are customizing, rewriting (overriding) a method that already
+            exists in a parent class or in java library. equals() is an inbuilt method in
+            java library.
+          -Helps prevent mistakes: If you mistype equals (e.g., equal), without @Override,
+          Java won’t catch the error—it’ll treat it as a new method.
+
+// Hasmap's key type: object, value type: string` which is opposite in folders
+    that start with `hash_map_....` key: obj, value: string
+
+// In Main file with equals(),
+    we used custom made equals, that means, if both objs fields are identical, objs are
+    equal

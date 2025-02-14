@@ -1,0 +1,45 @@
+//two kinds of equals() and hashCode()
+    1. predefined in java lib: it says - if reference of both objs are same, objs are equal
+        and produce same hashCode()
+        i.e obj.equals(comparedObj)
+
+
+    2. you can create customized equals: it says - if fields of both objs are identical, even
+       though reference is not same, objs are equal and produce the same hashCode - very
+       helpful in storing license plates or ID's
+       and their owners in hashmap, cz no two owners are gonna have a same license plate.
+
+// hashCode() what is it?
+       -only used for obj in hashmap, hashcode() returns a unique integer
+       -since the entries aren't stored in a fixed order in hashmap,
+        each key value pair has a unique integer associated with it, this integer helps us to
+        identify and retrieve the entry we are looking for.
+
+// @Override
+          -used only when you are customizing, rewriting (overriding) a method that already
+            exists in a parent class or in java library. equals() is an inbuilt method in
+            java library.
+          -Helps prevent mistakes: If you mistype equals (e.g., equal), without @Override,
+          Java won’t catch the error—it’ll treat it as a new method.
+
+//HashMap’s Behavior:
+        → HashMap works based on keys, not values.
+        → If the keys (Book objects) are identical, the value (borrower) gets replaced.
+        → If the keys are different, even if the value is the same, they are stored as
+          separate entries.
+        → When Two Book Keys Are Considered the Same: When they have the same title and
+          year (according to your equals() and hashCode() methods).
+
+// In Main file,
+   What to Test:
+   1. See if the map allows storing multiple entries if they have different borrowers with
+      the same book:
+      demi → Java (1999)
+      swiftie → Java (1999)
+      → Only Swiftie will be stored because the keys are identical.
+
+   2. See if the map allows storing multiple entries if they have the same borrower with
+      different books:
+      luca → Python (2000)
+      luca → Harry Potter (1997)
+      → Both entries will be stored because the keys are different.

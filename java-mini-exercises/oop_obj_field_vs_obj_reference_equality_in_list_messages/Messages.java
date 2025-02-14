@@ -20,8 +20,9 @@ public class Messages {
         //see whether sms is equal to mms //prints: false, cz each are refering to diff objs
         System.out.println(sms.equals(mms));
 
-        //see if sms is equal to a new object with same fields //prints: false, cz although
-        //fields are identical but `sms` and `new Messages("SMS")` have different memory locations
+        //see if sms is equal to a new object with same fields
+        // prints: false, cz althoug fields are identical
+        //but `sms` and `new Messages("SMS")` have different memory locations
         System.out.println(sms.equals(new Messages("SMS")));
 
         //create an empty list and add sms objs to it, print the list size
@@ -39,8 +40,8 @@ public class Messages {
         }
 
         if(!messageList.contains(new Messages("SMS"))){
-            messageList.add(sms);   //sms is added again, cz although objs in prev. if and
-                                    //this if have identical content but they are different
+            messageList.add(sms);   //sms is added again, cz although objs in prev. condition and
+                                    //this condition have identical content but they are different
                                     //objs(refer to different memory location)
         }
 

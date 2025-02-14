@@ -1,0 +1,51 @@
+//two kinds of equals() and hashCode()
+    1. predefined in java lib: it says - if reference of both objs are same, objs are equal
+        and produce same hashCode()
+        i.e obj.equals(comparedObj)
+
+
+    2. you can create customized equals: it says - if fields of both objs are identical, even
+       though reference is not same, objs are equal and produce the same hashCode - very
+       helpful in storing license plates or ID's
+       and their owners in hashmap, cz no two owners are gonna have a same license plate.
+
+// hashCode() what is it?
+         -only used for obj in hashmap, hashcode() returns a unique integer
+         -since the entries aren't stored in a fixed order in hashmap,
+          each key value pair has a unique integer associated with it, this integer helps us to
+          identify and retrieve the entry we are looking for.
+
+// @Override
+            -used only when you are customizing, rewriting (overriding) a method that already
+              exists in a parent class or in java library. equals() is an inbuilt method in
+              java library.
+            -Helps prevent mistakes: If you mistype equals (e.g., equal), without @Override,
+            Java won’t catch the error—it’ll treat it as a new method.
+
+// HashMap Key: Custom object (SimpleDate)
+   HashMap Value: String (name)
+   which is opposite in folders `hash_map_....` key: obj, value: string
+
+//Why Is This Important?
+    → HashMap's behavior depends on keys, not values.
+    → When the keys (SimpleDate) are identical, the value gets replaced.
+    → When the keys are different, even with the same value, they’re stored as separate entries.
+    → When Two Keys Are Considered the Same: When they have the same day, month, and year
+      (based on your equals() and hashCode() methods).
+
+// In Main file:
+    What to Test:
+    1. See if the map allows storing multiple entries if they have different names with
+       the same birthday.
+       demi → 01.02.2000
+       swiftie → 01.02.2000
+       → Only the latest one will be stored (swiftie). because 01.02.2000 is the same key.
+         In a HashMap, keys must be unique.
+
+    2. See if the map allows storing multiple entries if they have same name with
+        different birthdays:
+        luca → 11.02.2000
+        luca → 25.05.1999
+        → Both will be stored as separate entries, because the keys (birthdays) are different,
+          even though the values (name luca) are identical.
+
