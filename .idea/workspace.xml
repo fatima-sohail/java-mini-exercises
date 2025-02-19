@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="" />
+    <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_updating_value_of_hashmap_as_counter_in_i_owe_you/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_updating_value_of_hashmap_as_counter_in_i_owe_you/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_obj_field_vs_obj_reference_equality_sameDate/SimpleDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_obj_field_vs_obj_reference_equality_sameDate/SimpleDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_vehicle_registry/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_vehicle_registry/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_vehicle_registry/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_vehicle_registry/notes.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +63,7 @@
     "Application.ArraySum.executor": "Run",
     "Application.ArraySwap.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.DictionaryOfManyTranslations.executor": "Run",
     "Application.FindingErrorInTheCode.executor": "Run",
     "Application.ListArraySum.executor": "Run",
     "Application.ListAverage.executor": "Run",
@@ -72,13 +83,16 @@
     "Application.ListThirdElement.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainProgram.executor": "Run",
+    "Application.Messages.executor": "Run",
     "Application.NickNames.executor": "Run",
+    "Application.PhoneNumbers.executor": "Run",
     "Application.PrintAndRead.executor": "Run",
     "Application.PrintFile.executor": "Run",
     "Application.PrintStars.executor": "Run",
     "Application.PrintTreeAndTriangle.executor": "Run",
     "Application.PrintingAFile.executor": "Run",
     "Application.ReferenceVar.executor": "Run",
+    "Application.StorageFacility.executor": "Run",
     "Application.Translation_of_nums.executor": "Run",
     "Application.algorithem_selection_sort_type_int.Main.executor": "Run",
     "Application.algorithm_binary_and_linear_search.Main.executor": "Run",
@@ -144,6 +158,13 @@
     "Application.oop_encapsulation_retreive_height_order_obj_from_a_list_height_order.Main.executor": "Run",
     "Application.oop_encapsulation_retreive_height_order_shortest_to_tallest_obj_from_a_list_height_order.Main.executor": "Run",
     "Application.oop_encapsulation_retreive_longest_obj_from_a_list_longest_in_collection.Main.executor": "Run",
+    "Application.oop_obj_field_vs_obj_reference_equality_notepad.Main.executor": "Run",
+    "Application.oop_obj_field_vs_obj_reference_equality_sameDate.Main.executor": "Run",
+    "Application.oop_obj_value_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower.Main.executor": "Run",
+    "Application.oop_obj_value_vs_obj_refrence_equality_minimal_notepad.Main.executor": "Run",
+    "Application.oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower.Main.executor": "Run",
+    "Application.oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate.Main.executor": "Run",
+    "Application.oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_vehicle_registry.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -152,7 +173,8 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fatima/Desktop/programming/angular-todo/dsna_java"
+    "last_opened_file_path": "C:/Users/Fatima/Desktop/programming/angular-todo/dsna_java",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">

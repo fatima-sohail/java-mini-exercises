@@ -13,5 +13,5 @@ public class Main {
         System.out.println(mattOwes.howMuchDoIOweTo("Arthur"));
         System.out.println(mattOwes.howMuchDoIOweTo("J"));
     }
-    
+
 }

@@ -13,34 +13,46 @@ public class Book {
         return name + " (" + publishedYear + ")";
     }
 
+    @Override //add this before equals and hashcode().
+    // This makes it clear that the method is not unique but extends or
+    // replaces behavior from a parent class or interface.
+
     //this hashmap equals() method is different from obj's equals() in `Notepad class` in
     //`oop_obj_field_vs_obj_reference_equality_notepad` cz:
     //equals() below says that as long as fields of two objs are identical, they are
     //equal, even though both objs have different memory location
 
-    //in obj's equals(), if the memory location is same, both objs are equal, having identical
-    //fields only may not make them equal.
+    //in obj's equals(), if the memory location is same, both objs are equal, only having identical
+    //fields may not make them equal.
     public boolean equals(Object comparedObj){
-        //check if the reference of the compardobj is same as reference of the obj on which
+
+        //check if the comparedObj is
+        //null or doesn't share the same class as the obj on which
+        //the method was called i.e. obj.equals(comparedObj)
+        if(comparedObj == null || this.getClass() != comparedObj.getClass()){
+            return false;
+        }
+
+        //if the first condition is not met, check if the reference of the
+        // compardobj is same as reference of the obj on which
         // the method was called (i.e. obj.equals(comparedObj))
 
         if(this == comparedObj){
             return true;
         }
 
-        //if the first condition is not met, check if the comparedObj is
-        //null or doesn't share the same class as current obj
-        if(comparedObj == null || this.getClass() != comparedObj.getClass()){
-            return false;
-        }
-
         // If the above conditions are not met, cast the `comparedObj` to the same type as
         // the object on which this method was called (i.e., obj.equals(comparedObj)).
-        // Then, compare their relevant fields and return whether they are identical.
+        // Then, compare their relevant fields and return true if they are identical.
         Book givenObj = (Book)comparedObj ;
 
         //published is type `int` so `==` used, name is `string` so `equals()` is used.
-        return this.publishedYear == givenObj.publishedYear && this.name.equals(givenObj.name);
+        if(this.publishedYear == givenObj.publishedYear && this.name.equals(givenObj.name)){
+            return true;
+        }
+
+        //otherwise objs are not equal
+        return false;
     }
 
     //hashcode() returns an integer(only used for obj), since the entries aren't stored in a
