@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_basic_operations_stack_queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_basic_operations_stack_queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_basic_operations_stack_queue/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" afterDir="false" />
@@ -121,6 +124,7 @@
     "Application.inheritance_task3_warehousing_7_parts.Main.executor": "Run",
     "Application.inheritance_task4_interfaces_class_tacoBoxes_2_parts.Main.executor": "Run",
     "Application.inheritance_task_5_interface_in_a_box_4_parts.Main.executor": "Run",
+    "Application.linkedList_singly_basic_operations_stack_queue.Main.executor": "Run",
     "Application.oop2_ConstructorOverload.Main.executor": "Run",
     "Application.oop2_Fitbyte.Main.executor": "Run",
     "Application.oop2_OverloadedCounter.Main.executor": "Run",
