@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/hash_map_updating_value_of_hashmap_as_counter_in_i_owe_you/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/hash_map_updating_value_of_hashmap_as_counter_in_i_owe_you/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_obj_field_vs_obj_reference_equality_sameDate/SimpleDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_obj_field_vs_obj_reference_equality_sameDate/SimpleDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" afterDir="false" />
@@ -55,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A.executor": "Run",
     "Application.AdvancedAstrology.executor": "Run",
     "Application.ArrayIndex.executor": "Run",
     "Application.ArrayPrintNeatly.executor": "Run",
@@ -117,6 +115,12 @@
     "Application.hash_map_updating_value_of_hashmap_as_counter_in_i_owe_you.Main.executor": "Run",
     "Application.hash_map_use_obj_as_hashmap_value_library.Main.executor": "Run",
     "Application.hash_map_vs_list_library.Main.executor": "Run",
+    "Application.inheritance_ABC_2_parts.Main.executor": "Run",
+    "Application.inheritance_task2_person_and_subclasses_5_parts.Main.executor": "Run",
+    "Application.inheritance_task3_abstract_class_different_kinds_of_boxes_3_parts.Main.executor": "Run",
+    "Application.inheritance_task3_warehousing_7_parts.Main.executor": "Run",
+    "Application.inheritance_task4_interfaces_class_tacoBoxes_2_parts.Main.executor": "Run",
+    "Application.inheritance_task_5_interface_in_a_box_4_parts.Main.executor": "Run",
     "Application.oop2_ConstructorOverload.Main.executor": "Run",
     "Application.oop2_Fitbyte.Main.executor": "Run",
     "Application.oop2_OverloadedCounter.Main.executor": "Run",
