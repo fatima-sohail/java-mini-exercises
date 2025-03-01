@@ -1,4 +1,4 @@
-package linkedList_singly_basic_operations_stack_queue;
+package linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String;
 
 public class Main {
     public static void main(String[] args){
@@ -18,7 +18,17 @@ public class Main {
 
         list.addAtTail("B");
         list.addAtTail("C");
-        list.addAtTail("D");
+        list.addAtTail("E");
+        list.printList();
+
+        //use addAtPosition()
+        list.addAtPosition(3, "D");
+        list.printList();
+
+        //add at the the tail using addAtPoistion()
+        list.addAtPosition(4, "F");
+        list.addAtPosition(5, "F");
+        list.addAtPosition(6, "G");
         list.printList();
     }
 

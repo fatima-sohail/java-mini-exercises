@@ -1,4 +1,4 @@
-package linkedList_singly_basic_operations_stack_queue;
+package linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String;
 
 public class SinglyLinkedList {
     Node head;
@@ -71,9 +71,51 @@ public class SinglyLinkedList {
         head = newNode;
     }
 
+    //below method works the same incase of int type val. BUT
+    //if return type is `Node` instead of `void` like below, public Node addAtPosition(int position, String val)
+    //return; will be replaced by return = head; both are basically saying return the
+    //list as it is.
+    public void addAtPosition(int position, String val){
+        //step1: check if the position of new node is invalid/out of bounds
+        //position starts from 1 always
+        if(position <= 0){
+            return;
+        }
 
-    public void addAtIndex(int index, int val){
-        
+        Node newNode = new Node(val);
+        //step2: if position of new node is at the begining, new node becomes the head
+        if(position == 1){
+
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+
+        Node currentNode = head;
+        //step3a: if the position of new node is anywhere in the list, traverse to the node
+        //just before the desired position, we start from the first node for traversing
+        //i.e currentNode = head
+        //and make sure the currentNode is not null
+        for(int i = 0; i < position-1 && currentNode != null; i++){
+            currentNode = currentNode.next;         //its just a counter++, does not modify the node,
+                                                    //since index is not used in linked list so this
+                                                    //is how we go to next node
+        }
+
+        //Step3b: if you reach after the end i.e current == null, that means its invalid and you can't
+        //insert the new node, so return the list as it is
+        if(currentNode == null){
+            return;            //this means just return the list as it is, its just an expression
+        }
+
+        //Step3c: otherwise, if currentNode is not null, do this:
+        // node next to `new node` and node next to `currentNode` should refer to same node
+        //since they refer to same node, node next to currentNode should refer to the newNode,
+        //so update the current.next node
+        //return the updated list
+        newNode.next = currentNode.next;
+        currentNode.next = newNode;
+
     }
 
 

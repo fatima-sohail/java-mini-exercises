@@ -1,4 +1,4 @@
-package linkedList_singly_basic_operations_stack_queue;
+package linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String;
 
 public class Node {
     //two instance variable

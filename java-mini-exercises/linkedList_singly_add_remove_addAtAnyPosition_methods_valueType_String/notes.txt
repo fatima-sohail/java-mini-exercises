@@ -1,0 +1,4 @@
+Singly linked list (backed by Stack/stack implementation):
+    deals with only head, no tail e.g adding elements at head and removing from head,
+    peeking at the head
+    Stacks containing above methods are fastest at operating.
