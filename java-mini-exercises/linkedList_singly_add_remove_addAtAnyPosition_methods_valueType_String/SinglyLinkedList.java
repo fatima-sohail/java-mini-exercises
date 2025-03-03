@@ -76,14 +76,14 @@ public class SinglyLinkedList {
     //return; will be replaced by return = head; both are basically saying return the
     //list as it is.
     public void addAtPosition(int position, String val){
-        //step1: check if the position of new node is invalid/out of bounds
+        //case 1: check if the position of new node is invalid/out of bounds
         //position starts from 1 always
         if(position <= 0){
             return;
         }
 
         Node newNode = new Node(val);
-        //step2: if position of new node is at the begining, new node becomes the head
+        //case 2: if position of new node is at the begining, new node becomes the head
         if(position == 1){
 
             newNode.next = head;
@@ -92,7 +92,7 @@ public class SinglyLinkedList {
         }
 
         Node currentNode = head;
-        //step3a: if the position of new node is anywhere in the list, traverse to the node
+        //case 3a: if the position of new node is anywhere in the list, traverse to the node
         //just before the desired position, we start from the first node for traversing
         //i.e currentNode = head
         //and make sure the currentNode is not null
@@ -102,13 +102,13 @@ public class SinglyLinkedList {
                                                     //is how we go to next node
         }
 
-        //Step3b: if you reach after the end i.e current == null, that means its invalid and you can't
+        //case 3b: if you reach after the end i.e current == null, that means its invalid and you can't
         //insert the new node, so return the list as it is
         if(currentNode == null){
             return;            //this means just return the list as it is, its just an expression
         }
 
-        //Step3c: otherwise, if currentNode is not null, do this:
+        //case 3c: otherwise, if currentNode is not null, do this:
         // node next to `new node` and node next to `currentNode` should refer to same node
         //since they refer to same node, node next to currentNode should refer to the newNode,
         //so update the current.next node
@@ -118,6 +118,71 @@ public class SinglyLinkedList {
 
     }
 
+    public void removeLastNode(){
+        //case 1: if list is empty, there is nothing to remove
+        if(head == null){
+            return;
+        }
+        //case 2: if there's only one node in the list, remove it
+        if(head == tail){
+            head = null;
+            tail = null;
+        } else {
+            // else, traverse to the second last node
+            Node current = head;
+            while(current.next != tail){
+                current = current.next; //`current.next` is just a counter to move forward
+            }
+            //set next to second last node to null(removes the last node/tail)
+            current.next = null;
+            //update the tail to the second to last node
+            tail = current;
+
+        }
+
+    }
+
+    public void removeFirstNode(){
+        //if the list is empty, there's nothing to remove
+        if(head == null){
+            return;
+        }
+        //set head to the next node
+        head = head.next;
+
+    }
+
+    public void deleteAtPosition(int position){
+        //see if your position is invalid or out of bounds
+        if(position <=0 || head == null){
+            System.out.println("Position out of bounds");
+            return;
+        }
+
+        //delete head
+        if(position == 1){
+            head = head.next;
+            return;
+        }
+
+        Node current = head;
+
+        //reach node before the desired position
+        for(int i = 0; i< position-1 && current != null; i++){
+
+            current = current.next;
+        }
+
+        //make sure you are not trying to delete a node that doesn't exist
+        if(current == null || current.next == null){
+            System.out.println("Position out of bounds");
+            return;
+        }
+
+        //remove the node by just skipping over it.
+        current.next = current.next.next;
+
+    }
 
     public void printList(){
         //Start from the head
@@ -125,11 +190,13 @@ public class SinglyLinkedList {
 
         //traverse the list and print each node's value
         while(current!=null){
-            System.out.print(current.data + "->"); // print the value and the arrow to represent the link
+            System.out.print(current.data + " -> "); // print the value and the arrow to represent the link
             current = current.next; // move to the next node
         }
 
         // After the loop, print "null" to indicate the end of the list
         System.out.println("null");
     }
+
+
 }
