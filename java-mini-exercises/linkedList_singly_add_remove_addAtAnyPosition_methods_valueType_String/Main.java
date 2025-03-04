@@ -101,7 +101,7 @@ public class Main {
 
         // Inserting more elements at specific positions
         list.addAtPosition(2, "Golf");  // Inserts "Golf" at position 2 (between Bravo and Alpha)
-        list.addAtPosition(5, "Hotel"); // Inserts "Hotel" at position 5 (between Delta and Echo)
+        list.addAtPosition(5, "Hotel"); // Inserts "Hotel" at position 5 (between Fox and Delta)
         list.printList();  // Output: Charlie -> Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> Echo -> null
 
         // Try to insert at an invalid position (too large)

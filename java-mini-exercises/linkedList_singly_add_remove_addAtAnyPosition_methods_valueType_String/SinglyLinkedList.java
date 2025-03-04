@@ -11,8 +11,7 @@ public class SinglyLinkedList {
         this.tail = null;
     }
 
-    //constructor no.2
-    //when you already have a node and want to start a list from it
+    // Constructor 2: Start with a list that already has a head node
     public SinglyLinkedList(Node head) {
         this.head = head;
 
@@ -20,8 +19,7 @@ public class SinglyLinkedList {
         this.tail = head;
     }
 
-    //constructor no.3
-    //when you already know both head and tail nodes
+    // Constructor 3: Start with both head and tail nodes
     public SinglyLinkedList(Node head, Node tail) {
         this.head = head;
         this.tail = tail;
@@ -38,30 +36,30 @@ public class SinglyLinkedList {
         // for an empty list (constructor 1)
         Node newNode = new Node(val);
         if(head == null){
+            // Empty list: new node becomes both head and tail
             head = newNode;
             tail = newNode;
             return;
         }
 
-        // for non-empty list (constructor 2 and 3)
+        // for non-empty list (constructor 2 and 3) append the new node after the current tail
         tail.next = newNode;
         tail = newNode;
     }
 
+    // Add a new node to the beginning of the list
     public void addAtHead(String val){
-        //create a node to add it to the head
-        //if the list is empty, set the head and tail to the newly created node
-        //otherwise, if the list is not empty,
-            //the current head should point to the new node
-            //this makes the new node the head, so update the head to new node
+
         Node newNode = new Node(val);
+        // if the list is empty: new node becomes both head and tail
         if(head == null){
             head = newNode;
             tail = newNode;
             return;
         }
 
-
+        //otherwise, if the list is not empty,
+        // Point new node to the current head, then update head
         newNode.next = head; //why not head = newNode.next?
                             //code is read from right to left
                             //evaluate right hand side: head currently points to the existing first
@@ -75,40 +73,58 @@ public class SinglyLinkedList {
     //if return type is `Node` instead of `void` like below, public Node addAtPosition(int position, String val)
     //return; will be replaced by return = head; both are basically saying return the
     //list as it is.
+
+    // Add a new node at a specific position (zero-based index/position)
+    //It handles out-of-bounds checks (position < 0, and currentNode == null cases).
+    //It correctly updates the tail if the node is inserted at the end.
+    //It inserts at head, middle, and tail correctly.
+    //It even handles empty lists (head == null) via other methods or position == 0.
     public void addAtPosition(int position, String val){
+
         //case 1: check if the position of new node is invalid/out of bounds
-        //position starts from 1 always
-        if(position <= 0){
+        if(position < 0){ //zero based index/position
+            System.out.println("Invalid position");
             return;
         }
 
         Node newNode = new Node(val);
-        //case 2: if position of new node is at the begining, new node becomes the head
-        if(position == 1){
 
+        //case 2: insert newNode at the head: new node becomes the head
+        if(position == 0){
             newNode.next = head;
             head = newNode;
+            // If the list becomes a single element
+            if (head.next == null) {  // Only one node in the list
+                tail = newNode;
+            }
             return;
         }
 
         Node currentNode = head;
-        //case 3a: if the position of new node is anywhere in the list, traverse to the node
+
+        //case 3a:
+        // to insert new node anywhere in the list, including at tail, traverse to the node
         //just before the desired position, we start from the first node for traversing
         //i.e currentNode = head
         //and make sure the currentNode is not null
         for(int i = 0; i < position-1 && currentNode != null; i++){
-            currentNode = currentNode.next;         //its just a counter++, does not modify the node,
-                                                    //since index is not used in linked list so this
+            currentNode = currentNode.next;         //its acts as counter++, does not modify the node,
+                                                    //since traditional index system is not used in
+                                                    // linked list so this
                                                     //is how we go to next node
         }
 
-        //case 3b: if you reach after the end i.e current == null, that means its invalid and you can't
+        //case 3b:
+        // if you reach after the end i.e current == null, that means its invalid and you can't
         //insert the new node, so return the list as it is
-        if(currentNode == null){
-            return;            //this means just return the list as it is, its just an expression
+        if(currentNode == null || currentNode.next == null){
+            // Position is beyond the current list size
+            System.out.println("Invalid position");
+            return;  //this means just return the list as it is, it's just an expression
         }
 
-        //case 3c: otherwise, if currentNode is not null, do this:
+        //case 3c:
+        // otherwise, if currentNode is not null, do this:
         // node next to `new node` and node next to `currentNode` should refer to same node
         //since they refer to same node, node next to currentNode should refer to the newNode,
         //so update the current.next node
@@ -116,6 +132,10 @@ public class SinglyLinkedList {
         newNode.next = currentNode.next;
         currentNode.next = newNode;
 
+        // Case 3d: If we inserted at the tail (i.e., currentNode was the last node), update the tail
+        if (newNode.next == null) {
+            tail = newNode;
+        }
     }
 
     public void removeLastNode(){
@@ -127,18 +147,18 @@ public class SinglyLinkedList {
         if(head == tail){
             head = null;
             tail = null;
-        } else {
-            // else, traverse to the second last node
+        }
+
+        // otherwise, traverse to the second last node
             Node current = head;
             while(current.next != tail){
                 current = current.next; //`current.next` is just a counter to move forward
             }
+
             //set next to second last node to null(removes the last node/tail)
             current.next = null;
             //update the tail to the second to last node
             tail = current;
-
-        }
 
     }
 
@@ -147,32 +167,43 @@ public class SinglyLinkedList {
         if(head == null){
             return;
         }
-        //set head to the next node
+
+        //move head to the next node
         head = head.next;
 
     }
 
+    // Delete a node at a specific position (zero-based index)
+    //it handles Invalid positions (< 0 or empty list)
+    //handles Deleting the head node
+    //handles Deleting the tail node
+    //handles Deleting any middle node
+    //handles List with only one node
     public void deleteAtPosition(int position){
         //see if your position is invalid or out of bounds
-        if(position <=0 || head == null){
+        if(position <0 || head == null){ //zero based index/position
             System.out.println("Position out of bounds");
             return;
         }
 
-        //delete head
-        if(position == 1){
+        //if you want to delete the head node
+        if(position == 0){ //zero based index
             head = head.next;
+            // If the list is now empty, also update tail
+            if(head == null){
+                tail = null;
+            }
             return;
         }
 
         Node current = head;
 
-        //reach node before the desired position
-        for(int i = 0; i< position-2 && current != null; i++){
+        // Traverse to the node just before the one to delete
+        for(int i = 0; i< position-1 && current != null; i++){
             current = current.next;
         }
 
-        //make sure you are not trying to delete a node that doesn't exist
+        // Check if the position is valid, i.e., we're not trying to delete a node that doesn't exist
         if(current == null || current.next == null){
             System.out.println("Position out of bounds");
             return;
@@ -181,11 +212,18 @@ public class SinglyLinkedList {
         //remove the node by just skipping over it.
         current.next = current.next.next;
 
+        // If we're deleting the tail node
+        if(current.next == tail){
+            tail = current;
+        }
+
     }
 
+    //get the value at the specific index/position: zero based index
     public String get(int index){
         //check if index is out of bounds or if the list is empty
-        if(index < 0){ //index starts from 0, so index= 1 shall not return null
+        if(index < 0){//index starts from 0, so index= 1 shall not return null
+            System.out.println("position out of bounds");
             return null; //OR print: invalid index;
         }
 
@@ -216,6 +254,5 @@ public class SinglyLinkedList {
         // After the loop, print "null" to indicate the end of the list
         System.out.println("null");
     }
-
 
 }
