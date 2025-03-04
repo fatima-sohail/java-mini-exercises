@@ -114,7 +114,10 @@ public class Main {
         list.printList(); //prints: Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> null
 
         list.deleteAtPosition(3);
-        list.printList(); //prints: Bravo -> Golf -> Alpha -> Hotel -> Delta -> null
+        list.printList(); //prints: Bravo -> Golf -> Fox -> Hotel -> Delta -> null
+        System.out.println(list.get(1)); // Output:
+        System.out.println(list.get(0)); // Output:
+        System.out.println(list.get(5));
 
     }
 

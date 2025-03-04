@@ -168,8 +168,7 @@ public class SinglyLinkedList {
         Node current = head;
 
         //reach node before the desired position
-        for(int i = 0; i< position-1 && current != null; i++){
-
+        for(int i = 0; i< position-2 && current != null; i++){
             current = current.next;
         }
 
@@ -181,6 +180,26 @@ public class SinglyLinkedList {
 
         //remove the node by just skipping over it.
         current.next = current.next.next;
+
+    }
+
+    public String get(int index){
+        //check if index is out of bounds or if the list is empty
+        if(index < 0){ //index starts from 0, so index= 1 shall not return null
+            return null; //OR print: invalid index;
+        }
+
+        Node current = head;
+        //traverse through the list until you reach the desired index
+        for(int i = 0; i<index && current != null; i++){
+            current = current.next;
+        }
+        //if the current is null after the loop, index is out of bounds
+        if(current == null){
+            return null;
+        }
+        //otherwise, return the value of current node at specified index;
+        return current.data;
 
     }
 
