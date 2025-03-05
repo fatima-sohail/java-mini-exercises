@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly_two_pointer_technique_list_cycle/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly_two_pointer_technique_list_cycle/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly_two_pointer_technique_list_cycle/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly_two_pointer_technique_list_cycle/exercise_instructions.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_bookBorrower/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/oop_obj_values_vs_obj_reference_equality_and_hashcode_in_hashmap_sameDate/notes.txt" afterDir="false" />
@@ -65,6 +67,7 @@
     "Application.Calculator.executor": "Run",
     "Application.DictionaryOfManyTranslations.executor": "Run",
     "Application.FindingErrorInTheCode.executor": "Run",
+    "Application.LinkedList.executor": "Run",
     "Application.ListArraySum.executor": "Run",
     "Application.ListAverage.executor": "Run",
     "Application.ListFirstAndLast.executor": "Run",
@@ -92,6 +95,7 @@
     "Application.PrintTreeAndTriangle.executor": "Run",
     "Application.PrintingAFile.executor": "Run",
     "Application.ReferenceVar.executor": "Run",
+    "Application.SinglyLinkedList.executor": "Run",
     "Application.StorageFacility.executor": "Run",
     "Application.Translation_of_nums.executor": "Run",
     "Application.algorithem_selection_sort_type_int.Main.executor": "Run",
