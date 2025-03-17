@@ -5,7 +5,7 @@ package linked_list_singly_two_pointer_technique_list_cycle;
 
 import java.util.HashSet;
 
-public class LinkedList {
+public class DetectCycleTypeNode {
     public Node detectCycle(Node head) {
         //create a hashset, create a pointer/temp
         HashSet<Node> set = new HashSet<>();
@@ -35,6 +35,42 @@ public class LinkedList {
         return current;
     }
 
+    public Node detectCycleAnotherMethod(Node head){
+        //detect cycle using Floyd's algorithem(slow and fast pointers)
+        //if no cycle exists, return null
+        //if cycle is detected, reset slow to head and move both slow and fast one step each
+        //where they meet is the start of the cycle
+
+        Node slow = head;
+        Node fast = head;
+
+        //case1: detect cycle
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                break;
+            }
+        }
+
+        // Step 2: If no cycle is found, return null
+        if(fast == null || fast.next == null){
+            return null;
+        }
+
+        //since cycle is detected in while loop
+        // Step 3: Find the start of the cycle
+        slow = head;
+        while(slow != fast){ //traverse cycle till they meet
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+       // if(slow == fast){
+            return slow;  //when they meet, start of the cycle
+        //}
+    }
+
     public static void main(String[] args) {
         // Create nodes
         Node node1 = new Node(3);
@@ -50,7 +86,7 @@ public class LinkedList {
         // Create cycle (tail connects to node2)
         node4.next = node2; // see markdown file for diagram
 
-        LinkedList list = new LinkedList();
+        DetectCycleTypeNode list = new DetectCycleTypeNode();
         Node cycleStart = list.detectCycle(node1);
 
         if (cycleStart != null) {
