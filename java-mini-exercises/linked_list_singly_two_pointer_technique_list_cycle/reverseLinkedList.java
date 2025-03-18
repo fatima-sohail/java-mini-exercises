@@ -1,6 +1,7 @@
 package linked_list_singly_two_pointer_technique_list_cycle;
-
-public class reverseLinkedList {
+//List: 1 2 3 4
+//reverse: 4 3 2 1
+public class ReverseLinkedList {
     public Node reverseList(Node head) {
         if(head == null){
             return null;
@@ -17,7 +18,5 @@ public class reverseLinkedList {
         }
         return currentHead;
     }
-
-
 
 }
