@@ -24,7 +24,7 @@ public class OddEvenOrderedList_EvenOddOrderedList {
         //evenPtr moves to next even-indexed node
             //If the last node index is odd → evenPtr.next == null, and the loop stops.
             //If the last node index is even → evenPtr == null, and the loop stops
-        while(evenPointer != null && evenPointer.next != null){
+        while(evenPointer != null && evenPointer.next != null){ //ensures odd nodes are processed first
             oddPointer.next = evenPointer.next;
             oddPointer = oddPointer.next; //move odd pointer forward
 
@@ -45,7 +45,7 @@ public class OddEvenOrderedList_EvenOddOrderedList {
         Node oddPtr = head.next;
         Node evenPtr = head;
 
-        while(evenPtr != null && evenPtr.next != null){
+        while(evenPtr.next != null && oddPtr.next != null){
             oddPtr.next = evenPtr.next;
             oddPtr = oddPtr.next;
 
