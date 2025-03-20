@@ -84,18 +84,24 @@ public class Main {
         //use your own created method
         System.out.println("Customized methods of linked list: ");
         SinglyLinkedList list = new SinglyLinkedList();
+
         // Adding elements at the head of the list
+        System.out.println("Add nodes at head of the linked list:");
         list.addAtHead("Alpha");
         list.addAtHead("Bravo");
         list.addAtHead("Charlie");
         list.printList();  // Output: Charlie -> Bravo -> Alpha -> null
+        System.out.println();
 
         // Adding elements at the tail of the list
+        System.out.println("Add nodes at the tail:");
         list.addAtTail("Delta");  // Adds "Delta" at the tail (list: Charlie -> Bravo -> Alpha -> Delta)
         list.addAtTail("Echo");   // Adds "Echo" at the tail (list: Charlie -> Bravo -> Alpha -> Delta -> Echo)
         list.printList();  // Output: Charlie -> Bravo -> Alpha -> Delta -> Echo -> null
 
         // Inserting an element at a specific position
+        System.out.println();
+        System.out.println("Add node at index 3, 2, 5: ");
         list.addAtIndex(3, "Fox");  // Inserts "Fox" at position 3 (between Alpha and Delta)
         list.printList();  // Output: Charlie -> Bravo -> Alpha -> Fox -> Delta -> Echo -> null
 
@@ -103,27 +109,39 @@ public class Main {
         list.addAtIndex(2, "Golf");  // Inserts "Golf" at position 2 (between Bravo and Alpha)
         list.addAtIndex(5, "Hotel"); // Inserts "Hotel" at position 5 (between Fox and Delta)
         list.printList();  // Output: Charlie -> Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> Echo -> null
+        System.out.println();
 
         // Try to insert at an invalid position (too large)
+        System.out.println("Add node with value `India` at index 20: ");
         list.addAtIndex(20, "India");  // Invalid position, no change in list
         list.printList();  // Output remains: Charlie -> Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> Echo -> null
+        System.out.println();
 
         //remove first and last
+        System.out.println("remove first node:");
         list.removeFirstNode();
+        list.printList(); //Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> Echo -> null
+
+        System.out.println();
+        System.out.println("remove last node:");
         list.removeLastNode();
-        System.out.println("remove first and last node:");
-        list.printList();
+        list.printList(); //prints: Bravo -> Golf -> Alpha -> Fox -> Hotel -> Delta -> null
 
         System.out.println();
         System.out.println("delete node at index 3:");
         list.deleteAtIndex(3);
-        list.printList();
+        list.printList(); //prints: Bravo -> Golf -> Alpha -> Hotel -> Delta -> null
+
+        System.out.println();
+        System.out.println("delete node at index 4-last node:");
+        list.deleteAtIndex(4);
+        list.printList(); //prints: Bravo -> Golf -> Alpha -> Hotel -> null
 
         System.out.println();
         System.out.println("get values at these indices:");
-        System.out.println(list.get(1));
-        System.out.println(list.get(0));
-        System.out.println(list.get(7));
+        System.out.println(list.get(1)); //prints: Golf
+        System.out.println(list.get(0)); //prints: Bravo
+        System.out.println(list.get(7)); //prints: null
 
     }
 

@@ -18,10 +18,12 @@ public class removeNthNodeFromEnd {
             return head.next;
         }
         //condition 2: stop just before the node that needs to be removed and remove it
-        //before that, reset the pointer to head again
-        pointer = head;
-        int removeNodeAtPosition = length-n;
-        for(int i = 0; i<removeNodeAtPosition-1; i++){
+        //before that, reset the pointer to head again/ create a new pointer
+        Node pointer2 = head;
+        int targetIndexFromHead = length-n;
+        int count = 1;
+
+        while(count < targetIndexFromHead-1 ){
             pointer = pointer.next;
         }
         //now you are there, remove the node by skipping over it
