@@ -1,4 +1,4 @@
-package linked_list_singly_two_pointer_technique_list_cycle;
+package linked_list_singly;
 
 //Task:
 //Given head, the head of a linked list, determine if the linked list has a cycle in it.

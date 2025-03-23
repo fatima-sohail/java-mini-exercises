@@ -1,4 +1,4 @@
-package linked_list_singly_two_pointer_technique_list_cycle;
+package linked_list_singly;
 
 //find out if the list has cycle, if yes, where(at which node) does it start?
 //use method that has return type  `Node`.
