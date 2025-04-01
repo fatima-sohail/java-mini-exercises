@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hashSet/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hashSet/FindIntersectionOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hashSet/FindTheSingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mini-exercises/hashSet/IfANumberIsHappy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/linked_list_double/RemoveANode.java" beforeDir="false" />
