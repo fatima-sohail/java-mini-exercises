@@ -65,7 +65,6 @@ public class SinglyLinkedList {
             prev.next = newNode;
         }
 
-
     }
 
     // Add a new node to the beginning of the list
@@ -94,6 +93,9 @@ public class SinglyLinkedList {
         Node current = head;
         Node prev = null;
         int count = 0;
+
+        //while loop helps us reach the correct position, the insertion happens AFTER
+        //we reach there hence insertion happens after while loop
         while(current != null && count < index){    //(count < index)ensures we stop
                                                     // one step before current so we can properly
                                                     // insert the new node b/w prev and curr.
@@ -140,6 +142,16 @@ public class SinglyLinkedList {
 
     }
 
+    public void removeFirstNode(){
+        //if list is empty, do nothing
+        if(head == null){
+            return;
+        }
+        //otherwise remove the head by setting head to next node
+        head = head.next;
+
+    }
+
     public void removeLastNode(){
         if(head == null){
             return;
@@ -153,27 +165,16 @@ public class SinglyLinkedList {
 
         Node current = head;
         Node prev = null;
-        while(current != null){
+        while(current.next != null){
             prev = current;
             current = current.next;
         }
 
         //current is the last node, prev is the second last node
-        if(current != null && current.next == null) {
+        if(current.next == null) {
             prev.next = null;
         }
     }
-
-    public void removeFirstNode(){
-        //if list is empty, do nothing
-        if(head == null){
-            return;
-        }
-        //otherwise remove the head by setting head to next node
-        head = head.next;
-
-    }
-
 
     public void deleteAtIndex(int index){
         //case1: delete at head
@@ -191,7 +192,7 @@ public class SinglyLinkedList {
                                                 // insert the new node b/w prev and curr.
             prev = current;
             current = current.next;
-            count = 0;
+            count = count + 1;
         }
 
         //case 3:
@@ -208,12 +209,12 @@ public class SinglyLinkedList {
         }
 
         //delete at middle
-        if(count == index && current != null && current.next != null){
+        if(count == index && current.next != null){
             prev.next = current.next;
         }
 
         //delete at tail
-        if(count == index && current != null && current.next == null){
+        if(count == index && current.next == null){
             prev.next = null;
         }
     }
