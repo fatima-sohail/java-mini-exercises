@@ -1,14 +1,8 @@
-class Node{
-    int data;
-    Node left;
-    Node right;
+package leetcode_BinarySearchTree;
 
-    public Node(int value){
-        this.data = value;
-        left = null;
-        right = null;
-    }
-}
+//there are two ways to create methods:
+//1. using manual way: used here
+//2. using recusrsion: used in BSTrecursion
 
 public class BinarySearchTree {
     Node root;
