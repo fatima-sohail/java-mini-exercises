@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7302f116-2561-4b7a-8856-03f3dc1e683d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mini-exercises/Leetcode_SlidingWindow/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/Leetcode_SlidingWindow/SlidingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly/exercise_instructions.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/java-mini-exercises/linked_list_singly/exercise_instructions.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-mini-exercises/linkedList_singly_add_remove_addAtAnyPosition_methods_valueType_String/Node.class" afterDir="false" />
