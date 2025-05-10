@@ -31,7 +31,7 @@ Output: false
 Explanation: There is no cycle in the linked list.
 
 ------------------------------------------------
-Remove Nth Node From The End
+Remove Nth leetcode_BinarySearchTree.Node From The End
 
 Input: head = [1,2,3,4,5], n = 2 i.e remove node at position 2 from tail
 Output: [1,2,3,5]
